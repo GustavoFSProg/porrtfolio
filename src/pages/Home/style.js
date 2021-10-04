@@ -180,7 +180,7 @@ export const ContainerImage = styled.div`
 
   @media screen and (max-width: 700px) {
     height: 350px;
-    margin-top: -300px;
+    /* margin-top: -300px; */
   }
 `
 
@@ -199,7 +199,7 @@ export const Image = styled.img`
 
   @media screen and (max-width: 700px) {
     /* height: 350px; */
-    margin-top: -90px;
+    /* margin-top: -90px; */
   }
 `
 export const ContainerFoto = styled.div`
@@ -216,7 +216,7 @@ export const NameTitle = styled.h1`
 
   @media screen and (max-width: 600px) {
     font-size: 28px;
-    margin-top: -30px;
+    /* margin-top: -30px; */
   }
 `
 export const HabilitiesContainer = styled.div`
@@ -271,7 +271,7 @@ export const TitleSou = styled.h1`
     flex-direction: column;
 
     margin-left: 0px;
-    margin-top: -90px;
+    /* margin-top: -90px; */
   }
 `
 
