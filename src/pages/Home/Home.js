@@ -36,7 +36,7 @@ function Home() {
           <a href="http://facebook.com">
             <img src={face} width="30px" alt="facebook" style={{ marginRight: '9px' }} />
           </a>
-          <img src={link} width="30px" alt="linkdin" />
+          <img src={link} width="33px" alt="linkdin" />
         </Redes>
       </HabilitiesContainer>
     </Container>

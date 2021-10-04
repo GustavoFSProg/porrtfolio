@@ -18,7 +18,7 @@ export const ContainerImage = styled.div`
   background: url(${backImage});
   width: 100vw;
   height: 560px;
-  margin-top: -380px;
+  margin-top: -500px;
 `
 
 export const ListContainer = styled.div`
@@ -30,7 +30,6 @@ export const ListContainer = styled.div`
   margin-top: 325px;
 `
 export const Image = styled.img`
-  /* margin-top: 510px; */
   border-radius: 100%;
   width: 40%;
   height: auto;
@@ -44,7 +43,6 @@ export const NameTitle = styled.h1`
 export const HabilitiesContainer = styled.div`
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   background: #e6f3ff;
   width: 100vw;
   height: 700px;
