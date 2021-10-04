@@ -54,7 +54,7 @@ export const HabilitiesContainer = styled.div`
 export const HabilitiesBox = styled.div`
   display: flex;
   align-items: center;
-  background: #0066cc;
+  background: #5c8a8a;
   width: 100vw;
   height: 700px;
   margin-top: 0px;
