@@ -14,6 +14,7 @@ import {
   ListUl,
   LinhaHabilliti,
   ContactContainer,
+  ContainerFoto,
 } from './style'
 import eu from '../../assets/eu.jpg'
 import face from '../../assets/face.jpg'
@@ -25,6 +26,7 @@ function Home() {
       <ContainerImage>
         <ListContainer>
           <NameTitle>Gustavo F. Sohne</NameTitle>
+          <ContainerFoto>aa</ContainerFoto>
           <Image src={eu} style={{ zIndex: '4' }} />
         </ListContainer>
       </ContainerImage>
@@ -39,7 +41,7 @@ function Home() {
         </TextSou>
         <Redes>
           <a href="http://facebook.com">
-            <img src={face} width="30px" alt="facebook" style={{ marginRight: '9px' }} />
+            <img src={face} width="30px" alt="facebook" style={{ marginRight: '21px' }} />
           </a>
           <img src={link} width="33px" alt="linkdin" />
         </Redes>
