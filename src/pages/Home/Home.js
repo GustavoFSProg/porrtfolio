@@ -13,6 +13,7 @@ import {
   Title,
   ListUl,
   LinhaHabilliti,
+  ContactContainer,
 } from './style'
 import eu from '../../assets/eu.jpg'
 import face from '../../assets/face.jpg'
@@ -93,7 +94,7 @@ function Home() {
                   height: '170px',
                 }}
               >
-                Delphi
+                HTML
               </div>
             </li>
             <li>
@@ -107,12 +108,61 @@ function Home() {
                   height: '170px',
                 }}
               >
-                PHP
+                CSS
               </div>
             </li>
           </div>
         </ListUl>
       </HabilitiesBox>
+      <ContactContainer>
+        <h1
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: '#006699',
+            color: 'white',
+            fontSize: '38px',
+            marginBottom: '20px',
+            marginTop: '-1px',
+          }}
+        >
+          <div style={{ marginTop: '80px', marginLeft: '-30px' }}>
+            <TitleSou style={{ color: 'white', width: '500px' }}>
+              DADOS PESSOAIS
+              <Linha />
+              <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
+                <li style={{ fontSize: '21px' }}>Telefone: (51) 98457-6589</li>
+                <li style={{ fontSize: '21px' }}>Email: gustavosohne38@gmail.com</li>
+              </ul>
+            </TitleSou>
+          </div>
+        </h1>
+
+        <h1
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: '#0088cc',
+            color: 'white',
+            fontSize: '38px',
+            marginBottom: '20px',
+            marginTop: '-1px',
+          }}
+        >
+          <div style={{ marginTop: '80px', marginLeft: '-30px' }}>
+            <TitleSou style={{ color: 'white', width: '500px' }}>
+              DADOS PESSOAIS
+              <Linha />
+              <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
+                <li style={{ fontSize: '21px' }}>Telefone: (51) 98457-6589</li>
+                <li style={{ fontSize: '21px' }}>Email: gustavosohne38@gmail.com</li>
+              </ul>
+            </TitleSou>
+          </div>
+        </h1>
+      </ContactContainer>
     </Container>
   )
 }

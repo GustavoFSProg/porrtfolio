@@ -8,7 +8,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 200vh;
+  height: 300vh;
 `
 
 export const ContainerImage = styled.div`
@@ -118,4 +118,12 @@ export const LinhaHabilliti = styled.div`
   margin-top: 20px;
 `
 
-export const ListLi = styled.li``
+export const ContactContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* align-items: center; */
+
+  width: 100vw;
+  height: 700px;
+  margin-top: 0px;
+`
