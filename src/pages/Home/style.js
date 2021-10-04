@@ -199,7 +199,7 @@ export const Image = styled.img`
 
   @media screen and (max-width: 700px) {
     /* height: 350px; */
-    /* margin-top: -90px; */
+    margin-top: -80px;
   }
 `
 export const ContainerFoto = styled.div`
@@ -216,7 +216,7 @@ export const NameTitle = styled.h1`
 
   @media screen and (max-width: 600px) {
     font-size: 28px;
-    /* margin-top: -30px; */
+    margin-top: -60px;
   }
 `
 export const HabilitiesContainer = styled.div`
@@ -232,6 +232,7 @@ export const HabilitiesContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
   }
 `
 
@@ -271,7 +272,7 @@ export const TitleSou = styled.h1`
     flex-direction: column;
 
     margin-left: 0px;
-    /* margin-top: -90px; */
+    margin-top: -150px;
   }
 `
 
