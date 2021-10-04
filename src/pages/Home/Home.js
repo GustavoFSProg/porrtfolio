@@ -26,7 +26,7 @@ function Home() {
       <ContainerImage>
         <ListContainer>
           <NameTitle>Gustavo F. Sohne</NameTitle>
-          <ContainerFoto>aa</ContainerFoto>
+          <ContainerFoto></ContainerFoto>
           <Image src={eu} style={{ zIndex: '4' }} />
         </ListContainer>
       </ContainerImage>
