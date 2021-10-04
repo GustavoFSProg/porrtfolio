@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import backImage from '../../assets/background.png'
+import pc from '../../assets/pc.png'
 
 export const Container = styled.div`
   display: flex;
@@ -54,13 +55,20 @@ export const HabilitiesContainer = styled.div`
 export const HabilitiesBox = styled.div`
   display: flex;
   align-items: center;
-  background: #5c8a8a;
+  background: url(${pc});
+
   width: 100vw;
   height: 700px;
   margin-top: 0px;
   z-index: 2;
 `
-
+export const Title = styled.h1`
+  font-size: 38px;
+  color: white;
+  font-family: 'Roboto';
+  margin-left: 120px;
+  margin-top: -320px;
+`
 export const TitleSou = styled.h1`
   font-size: 38px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -91,3 +99,23 @@ export const Redes = styled.div`
   margin-top: -350px;
   margin-left: 40px;
 `
+export const ListUl = styled.ul`
+  list-style: none;
+  font-family: 'Roboto';
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 160px;
+`
+
+export const LinhaHabilliti = styled.div`
+  width: 55px;
+  height: 7px;
+  background: white;
+  margin-top: 20px;
+`
+
+export const ListLi = styled.li``

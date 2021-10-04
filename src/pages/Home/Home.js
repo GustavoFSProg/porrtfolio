@@ -10,6 +10,9 @@ import {
   TextSou,
   Redes,
   HabilitiesBox,
+  Title,
+  ListUl,
+  LinhaHabilliti,
 } from './style'
 import eu from '../../assets/eu.jpg'
 import face from '../../assets/face.jpg'
@@ -40,7 +43,76 @@ function Home() {
           <img src={link} width="33px" alt="linkdin" />
         </Redes>
       </HabilitiesContainer>
-      <HabilitiesBox></HabilitiesBox>
+      <HabilitiesBox>
+        <Title>
+          Habilidades
+          <LinhaHabilliti />
+        </Title>
+        <ListUl>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <li>
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  background: '#005580',
+                  width: '250px',
+                  height: '170px',
+                }}
+              >
+                Node js
+              </div>
+            </li>
+            <li>
+              {' '}
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  background: '#004466',
+                  width: '250px',
+                  height: '170px',
+                }}
+              >
+                {' '}
+                React js
+              </div>
+            </li>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <li>
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  background: '#004466',
+                  width: '250px',
+                  height: '170px',
+                }}
+              >
+                Delphi
+              </div>
+            </li>
+            <li>
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  background: '#005580',
+                  width: '250px',
+                  height: '170px',
+                }}
+              >
+                PHP
+              </div>
+            </li>
+          </div>
+        </ListUl>
+      </HabilitiesBox>
     </Container>
   )
 }
