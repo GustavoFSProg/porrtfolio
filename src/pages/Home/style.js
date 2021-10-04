@@ -18,7 +18,8 @@ export const ContainerImage = styled.div`
   background: url(${backImage});
   width: 100vw;
   height: 560px;
-  margin-top: -500px;
+  /* margin-top: -500px; */
+  margin-top: 0px;
 `
 
 export const ListContainer = styled.div`
@@ -49,6 +50,17 @@ export const HabilitiesContainer = styled.div`
   margin-top: 0px;
   z-index: 2;
 `
+
+export const HabilitiesBox = styled.div`
+  display: flex;
+  align-items: center;
+  background: #0066cc;
+  width: 100vw;
+  height: 700px;
+  margin-top: 0px;
+  z-index: 2;
+`
+
 export const TitleSou = styled.h1`
   font-size: 38px;
   font-family: 'Source Sans Pro', sans-serif;

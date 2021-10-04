@@ -9,6 +9,7 @@ import {
   Linha,
   TextSou,
   Redes,
+  HabilitiesBox,
 } from './style'
 import eu from '../../assets/eu.jpg'
 import face from '../../assets/face.jpg'
@@ -39,6 +40,7 @@ function Home() {
           <img src={link} width="33px" alt="linkdin" />
         </Redes>
       </HabilitiesContainer>
+      <HabilitiesBox></HabilitiesBox>
     </Container>
   )
 }
