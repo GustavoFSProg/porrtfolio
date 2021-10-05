@@ -110,7 +110,7 @@ export const TitleSou = styled.h1`
   font-size: 38px;
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
-  margin-left: 20px;
+  margin-left: 60px;
   margin-top: -40px;
   width: 780px;
 
@@ -132,7 +132,7 @@ export const Linha = styled.div`
 export const TextSou = styled.h1`
   font-size: 17px;
   color: gray;
-  margin-left: -810px;
+  margin-left: -710px;
   width: 230px;
   line-height: 27px;
   margin-top: 188px;
