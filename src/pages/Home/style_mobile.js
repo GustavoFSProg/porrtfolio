@@ -18,14 +18,13 @@ export const ContainerImage = styled.div`
   justify-content: center;
   background: url(${backImage});
   width: 100vw;
-  /* height: 1770px; */
+  height: 750px;
 `
 
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
   /* height: 100px; */
-  /* background: red; */
 
   align-items: center;
   justify-content: center;
