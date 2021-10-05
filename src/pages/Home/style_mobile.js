@@ -72,7 +72,7 @@ export const HabilitiesContainer = styled.div`
   background: #e6f3ff;
   width: 100vw;
   height: 500px;
-  /* margin-top: 300px; */
+  padding-bottom: 70px;
   z-index: 2;
 
   @media screen and (min-width: 500px) {
@@ -86,6 +86,7 @@ export const HabilitiesContainer = styled.div`
 
 export const HabilitiesBox = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
   background: url(${pc});
 
@@ -93,26 +94,18 @@ export const HabilitiesBox = styled.div`
   height: 700px;
   margin-top: 0px;
   z-index: 2;
-  @media screen and (min-width: 500px) {
-    margin-top: 250px;
-  }
-  @media screen and (max-width: 600px) {
+  padding-bottom: 20px;
+
+  /* @media screen and (max-width: 600px) {
     display: none;
-  }
+  } */
 `
 export const Title = styled.h1`
-  font-size: 38px;
+  font-size: 28px;
   color: white;
   font-family: 'Roboto';
-  margin-left: 120px;
-  margin-top: -320px;
-
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-
-    margin-left: 0px;
-    margin-top: 0px;
-  }
+  margin-left: -60px;
+  margin-top: 42px;
 `
 export const TitleSou = styled.h1`
   font-size: 38px;
@@ -159,12 +152,13 @@ export const ListUl = styled.ul`
   list-style: none;
   font-family: 'Roboto';
   color: white;
-  font-size: 28px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 40px;
   display: flex;
   flex-direction: row;
-  margin-top: 160px;
+  margin-top: 50px;
+  margin-left: -55px;
 `
 
 export const LinhaHabilliti = styled.div`

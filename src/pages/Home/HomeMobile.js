@@ -64,8 +64,8 @@ function HomeMobile() {
                   alignItems: 'center',
                   justifyContent: 'center',
                   background: '#005580',
-                  width: '250px',
-                  height: '170px',
+                  width: '130px',
+                  height: '110px',
                 }}
               >
                 Node js
@@ -79,8 +79,8 @@ function HomeMobile() {
                   alignItems: 'center',
                   justifyContent: 'center',
                   background: '#004466',
-                  width: '250px',
-                  height: '170px',
+                  width: '130px',
+                  height: '110px',
                 }}
               >
                 {' '}
@@ -96,8 +96,8 @@ function HomeMobile() {
                   alignItems: 'center',
                   justifyContent: 'center',
                   background: '#004466',
-                  width: '250px',
-                  height: '170px',
+                  width: '130px',
+                  height: '110px',
                 }}
               >
                 HTML
@@ -110,8 +110,8 @@ function HomeMobile() {
                   alignItems: 'center',
                   justifyContent: 'center',
                   background: '#005580',
-                  width: '250px',
-                  height: '170px',
+                  width: '130px',
+                  height: '110px',
                 }}
               >
                 CSS
