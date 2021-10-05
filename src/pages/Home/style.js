@@ -287,7 +287,7 @@ export const TextSou = styled.h1`
   color: gray;
   /* margin-right: 200px; */
   /* margin-left: -680px; */
-  width: 230px;
+  width: 220px;
   line-height: 27px;
   /* margin-top: 250px; */
   text-align: justify;
