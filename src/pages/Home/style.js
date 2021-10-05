@@ -89,7 +89,7 @@ export const HabilitiesBox = styled.div`
 
   width: 100vw;
   height: 700px;
-  margin-top: 0px;
+  margin-top: 100px;
   z-index: 2;
 `
 export const Title = styled.h1`
