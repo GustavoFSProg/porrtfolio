@@ -104,7 +104,7 @@ export const Title = styled.h1`
   margin-top: 42px;
 `
 export const TitleSou = styled.h1`
-  font-size: 38px;
+  font-size: 22px;
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
 `
@@ -170,15 +170,12 @@ export const ContactContainer = styled.div`
   /* align-items: center; */
 
   width: 100vw;
-  height: 700px;
+
+  height: 450px;
   margin-top: 0px;
 
   @media screen and (min-width: 500px) {
     margin-top: 250px;
-  }
-
-  @media screen and (max-width: 600px) {
-    display: none;
   }
 `
 

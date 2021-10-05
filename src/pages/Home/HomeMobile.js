@@ -133,37 +133,13 @@ function HomeMobile() {
             marginTop: '-1px',
           }}
         >
-          <div style={{ marginTop: '80px', marginLeft: '-30px' }}>
-            <TitleSou style={{ color: 'white', width: '500px' }}>
+          <div style={{ marginLeft: '60px', marginTop: '-60px' }}>
+            <TitleSou style={{ color: 'white', width: '330px' }}>
               DADOS PESSOAIS
               <Linha />
               <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
-                <li style={{ fontSize: '21px' }}>Telefone: (51) 98457-6589</li>
-                <li style={{ fontSize: '21px' }}>Email: gustavosohne38@gmail.com</li>
-              </ul>
-            </TitleSou>
-          </div>
-        </h1>
-
-        <h1
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            background: '#0088cc',
-            color: 'white',
-            fontSize: '38px',
-            marginBottom: '20px',
-            marginTop: '-1px',
-          }}
-        >
-          <div style={{ marginTop: '80px', marginLeft: '-30px' }}>
-            <TitleSou style={{ color: 'white', width: '500px' }}>
-              DADOS PESSOAIS
-              <Linha />
-              <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
-                <li style={{ fontSize: '21px' }}>Telefone: (51) 98457-6589</li>
-                <li style={{ fontSize: '21px' }}>Email: gustavosohne38@gmail.com</li>
+                <li style={{ fontSize: '18px' }}>Telefone: (51) 98457-6589</li>
+                <li style={{ fontSize: '18px' }}>Email: gustavosohne38@gmail.com</li>
               </ul>
             </TitleSou>
           </div>
