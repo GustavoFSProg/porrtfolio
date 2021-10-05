@@ -27,18 +27,20 @@ function Home() {
         <ListContainer>
           <NameTitle>Gustavo F. Sohne</NameTitle>
           <ContainerFoto></ContainerFoto>
-          <Image src={eu} style={{ zIndex: '4' }} />
+          <Image src={eu} style={{ zIndex: '4' }} alt="imagem" />
         </ListContainer>
       </ContainerImage>
       <HabilitiesContainer>
-        <TitleSou>
-          QUEM SOU
-          <Linha />
-        </TitleSou>
-        <TextSou>
-          Sou desenvolvedor Node js e React js, formado no curso de Sistemas de Informação da Escola
-          Técnica da UFRGS em Porto Alegre - RS
-        </TextSou>
+        <div style={{ marginLeft: '60px', marginTop: '-50px' }}>
+          <TitleSou>
+            QUEM SOU
+            <Linha />
+          </TitleSou>
+          <TextSou>
+            Sou desenvolvedor Node js e React js, formado no curso de Sistemas de Informação da
+            Escola Técnica da UFRGS em Porto Alegre - RS
+          </TextSou>
+        </div>
 
         {/* <RedesContainer> */}
         <Redes>
