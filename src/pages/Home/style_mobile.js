@@ -18,7 +18,7 @@ export const ContainerImage = styled.div`
   justify-content: center;
   background: url(${backImage});
   width: 100vw;
-  /* height: 1070px; */
+  height: 770px;
 `
 
 export const ListContainer = styled.div`
@@ -29,7 +29,7 @@ export const ListContainer = styled.div`
 
   align-items: center;
   justify-content: center;
-  margin-top: 502px;
+  margin-top: 402px;
 `
 
 export const Image = styled.img`
