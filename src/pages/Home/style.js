@@ -70,13 +70,14 @@ export const HabilitiesContainer = styled.div`
   background: #e6f3ff;
   width: 100vw;
   height: 900px;
+  padding-bottom: 100px;
   margin-top: 0px;
   z-index: 2;
 
   @media screen and (max-width: 700px) {
     /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 
     /* margin-top: 280px; */
   }
@@ -89,7 +90,7 @@ export const HabilitiesBox = styled.div`
 
   width: 100vw;
   height: 700px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   z-index: 2;
 `
 export const Title = styled.h1`
