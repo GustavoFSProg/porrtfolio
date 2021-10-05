@@ -66,11 +66,11 @@ export const Image = styled.img`
   width: 40%;
   height: auto;
 
-  @media screen and (min-width: 500px) {
+  /* @media screen and (min-width: 500px) {
     border-radius: 100%;
     width: 40%;
     height: auto;
-  }
+  } */
 `
 export const ContainerFoto = styled.div`
   @media screen and (max-width: 600px) {
