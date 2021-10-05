@@ -19,7 +19,7 @@ export const ContainerImage = styled.div`
   background: url(${backImage});
   width: 100vw;
   height: 850px;
-  padding-top: 150px;
+  padding-top: 250px;
 `
 
 export const ListContainer = styled.div`
@@ -165,7 +165,7 @@ export const ContactContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   /* align-items: center; */
 
-  width: 100vw;
+  width: 99vw;
 
   height: 450px;
   margin-top: 0px;
