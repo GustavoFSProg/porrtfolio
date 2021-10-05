@@ -176,7 +176,7 @@ export const ContainerImage = styled.div`
   width: 100vw;
   height: 200px;
 
-  margin-top: -330px;
+  /* margin-top: -330px; */
 
   /* @media screen and (max-width: 700px) {
     height: 350px;
