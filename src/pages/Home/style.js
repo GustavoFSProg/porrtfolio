@@ -227,7 +227,7 @@ export const HabilitiesContainer = styled.div`
   background: #e6f3ff;
   width: 100vw;
   height: 500px;
-  margin-top: 0px;
+  margin-top: 300px;
   z-index: 2;
 
   /* @media screen and (max-width: 700px) {
