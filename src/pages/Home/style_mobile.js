@@ -19,6 +19,7 @@ export const ContainerImage = styled.div`
   background: url(${backImage});
   width: 100vw;
   height: 850px;
+  padding-top: 150px;
 `
 
 export const ListContainer = styled.div`
