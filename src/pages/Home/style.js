@@ -274,17 +274,6 @@ export const TitleSou = styled.h1`
   font-size: 38px;
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
-  /* margin-left: 38px; */
-  /* margin-top: -270px; */
-  width: 600px;
-
-  /* @media screen and (max-width: 700px) {
-    flex-direction: column;
-    width: 1000px;
-    margin-top: -420px;
-    margin-left: 130px;
-    font-size: 30px;
-  } */
 `
 
 export const Linha = styled.div`
@@ -302,12 +291,6 @@ export const TextSou = styled.h1`
   line-height: 27px;
   /* margin-top: 250px; */
   text-align: justify;
-
-  /* @media screen and (max-width: 700px) {
-    flex-direction: column;
-    width: 1080px;
-    /* margin-right: 120px; */
-  /* }  */
 `
 
 export const RedesContainer = styled.div`
