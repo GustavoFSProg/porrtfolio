@@ -18,7 +18,7 @@ export const ContainerImage = styled.div`
   justify-content: center;
   background: url(${backImage});
   width: 100vw;
-  height: 750px;
+  height: 570px;
 
   @media screen and (min-width: 600px) {
     margin-top: 770px;
