@@ -29,7 +29,7 @@ export const ListContainer = styled.div`
 
   align-items: center;
   justify-content: center;
-  margin-top: 702px;
+  margin-top: 802px;
 `
 
 export const Image = styled.img`
