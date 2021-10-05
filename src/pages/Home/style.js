@@ -9,7 +9,7 @@ export const Container = styled.div`
   justify-content: center;
   width: 100%;
 
-  height: 400vh;
+  height: 360vh;
 `
 
 export const ContainerImage = styled.div`
