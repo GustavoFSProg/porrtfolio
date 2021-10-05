@@ -175,7 +175,7 @@ export const ContainerImage = styled.div`
   background: url(${backImage});
   width: 100vw;
   height: 210px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 
   /* margin-top: -330px; */
 
