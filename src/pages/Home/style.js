@@ -69,7 +69,7 @@ export const HabilitiesContainer = styled.div`
   align-items: center;
   background: #e6f3ff;
   width: 100vw;
-  height: 700px;
+  height: 900px;
   margin-top: 0px;
   z-index: 2;
 
