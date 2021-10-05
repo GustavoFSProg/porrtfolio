@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 98%;
+  width: 100%;
 
   height: 300vh;
 `
@@ -18,7 +18,7 @@ export const ContainerImage = styled.div`
   /* align-items: center; */
   /* justify-content: center; */
   background: url(${backImage});
-  width: 98%;
+  width: 100%;
   height: 250px;
 
   /* margin-top: -290px; */
@@ -101,7 +101,6 @@ export const Title = styled.h1`
 
   @media screen and (max-width: 700px) {
     flex-direction: column;
-
     margin-left: 0px;
     margin-top: 0px;
   }
@@ -111,7 +110,7 @@ export const TitleSou = styled.h1`
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
   margin-left: 20px;
-  margin-top: -180px;
+  margin-top: -80px;
   width: 780px;
 
   /* @media screen and (max-width: 700px) {
@@ -135,7 +134,7 @@ export const TextSou = styled.h1`
   margin-left: -810px;
   width: 230px;
   line-height: 27px;
-  margin-top: 108px;
+  margin-top: 188px;
   text-align: justify;
   /* 
   @media screen and (max-width: 700px) {

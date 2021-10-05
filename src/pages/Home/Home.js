@@ -39,6 +39,7 @@ function Home() {
           Sou desenvolvedor Node js e React js, formado no curso de Sistemas de Informação da Escola
           Técnica da UFRGS em Porto Alegre - RS
         </TextSou>
+
         {/* <RedesContainer> */}
         <Redes>
           <a href="http://facebook.com">
