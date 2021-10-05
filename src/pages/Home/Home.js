@@ -39,12 +39,14 @@ function Home() {
           Sou desenvolvedor Node js e React js, formado no curso de Sistemas de Informação da Escola
           Técnica da UFRGS em Porto Alegre - RS
         </TextSou>
+        {/* <RedesContainer> */}
         <Redes>
           <a href="http://facebook.com">
             <img src={face} width="30px" alt="facebook" style={{ marginRight: '21px' }} />
           </a>
           <img src={link} width="33px" alt="linkdin" />
         </Redes>
+        {/* </RedesContainer> */}
       </HabilitiesContainer>
       <HabilitiesBox>
         <Title>

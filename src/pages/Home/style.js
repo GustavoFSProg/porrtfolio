@@ -229,10 +229,11 @@ export const HabilitiesContainer = styled.div`
   z-index: 2;
 
   @media screen and (max-width: 700px) {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-    margin-top: 0px;
+
+    /* margin-top: 280px; */
   }
 `
 
@@ -265,14 +266,15 @@ export const TitleSou = styled.h1`
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
   margin-left: 180px;
-  margin-top: -300px;
+  margin-top: -270px;
   width: 200px;
 
   @media screen and (max-width: 700px) {
     flex-direction: column;
-
-    margin-left: 0px;
-    margin-top: -150px;
+    width: 1000px;
+    margin-top: -420px;
+    margin-left: 130px;
+    font-size: 30px;
   }
 `
 
@@ -293,10 +295,14 @@ export const TextSou = styled.h1`
 
   @media screen and (max-width: 700px) {
     flex-direction: column;
-    width: 320px;
+    width: 1080px;
+    /* margin-right: 120px; */
+  }
+`
 
-    margin-left: 0px;
-    margin-top: 0px;
+export const RedesContainer = styled.div`
+  @media screen and (max-width: 700px) {
+    margin-right: 120px;
   }
 `
 export const Redes = styled.div`
@@ -307,9 +313,9 @@ export const Redes = styled.div`
 
   @media screen and (max-width: 700px) {
     flex-direction: row;
-
-    margin-left: 0px;
-    margin-top: 50px;
+    /* margin-right: 300px; */
+    margin-top: 270px;
+    display: none;
   }
 `
 export const ListUl = styled.ul`
