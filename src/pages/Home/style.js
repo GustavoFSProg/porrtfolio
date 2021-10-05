@@ -251,6 +251,10 @@ export const HabilitiesBox = styled.div`
   height: 700px;
   margin-top: 0px;
   z-index: 2;
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `
 export const Title = styled.h1`
   font-size: 38px;
@@ -351,4 +355,8 @@ export const ContactContainer = styled.div`
   width: 100vw;
   height: 700px;
   margin-top: 0px;
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `
