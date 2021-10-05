@@ -33,7 +33,7 @@ export const ListContainer = styled.div`
 
   align-items: center;
   justify-content: center;
-  margin-top: 342px;
+  margin-top: 302px;
 `
 
 export const Image = styled.img`
