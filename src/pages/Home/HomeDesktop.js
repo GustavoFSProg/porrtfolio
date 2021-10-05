@@ -43,7 +43,7 @@ function HomeDesktop() {
 
         {/* <RedesContainer> */}
         <Redes>
-          <a href="http://facebook.com">
+          <a href="https://www.facebook.com/gustavo.sohne.771">
             <img src={face} width="30px" alt="facebook" style={{ marginRight: '28px' }} />
           </a>
           <img src={link} width="33px" alt="linkdin" />
