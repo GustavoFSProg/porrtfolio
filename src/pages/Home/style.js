@@ -52,25 +52,25 @@ export const ListContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 325px;
-  @media screen and (min-width: 500px) {
+  /* @media screen and (min-width: 500px) {
     display: flex;
     flex-direction: column;
 
     align-items: center;
     justify-content: center;
     margin-top: 325px;
-  }
+  } */
 `
 export const Image = styled.img`
   border-radius: 100%;
   width: 40%;
   height: auto;
 
-  /* @media screen and (min-width: 500px) {
+  @media screen and (min-width: 500px) {
     border-radius: 100%;
     width: 40%;
     height: auto;
-  } */
+  }
 `
 export const ContainerFoto = styled.div`
   @media screen and (max-width: 600px) {
