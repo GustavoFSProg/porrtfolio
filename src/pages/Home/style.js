@@ -174,7 +174,7 @@ export const ContainerImage = styled.div`
   justify-content: center;
   background: url(${backImage});
   width: 100vw;
-  height: 280px;
+  height: 310px;
 
   /* margin-top: -330px; */
 
