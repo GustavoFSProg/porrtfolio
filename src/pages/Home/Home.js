@@ -14,6 +14,7 @@ import {
   ListUl,
   LinhaHabilliti,
   ContactContainer,
+  ContainerSize,
 } from './style'
 import eu from '../../assets/eu.jpg'
 import face from '../../assets/face.jpg'
@@ -29,7 +30,7 @@ function Home() {
         </ListContainer>
       </ContainerImage>
       <HabilitiesContainer>
-        <div style={{ marginLeft: '55px', marginTop: '60px' }}>
+        <ContainerSize>
           <TitleSou>
             QUEM SOU
             <Linha />
@@ -38,12 +39,12 @@ function Home() {
             Sou desenvolvedor Node js e React js, formado no curso de Sistemas de Informação da
             Escola Técnica da UFRGS em Porto Alegre - RS
           </TextSou>
-        </div>
+        </ContainerSize>
 
         {/* <RedesContainer> */}
         <Redes>
           <a href="http://facebook.com">
-            <img src={face} width="30px" alt="facebook" style={{ marginRight: '21px' }} />
+            <img src={face} width="30px" alt="facebook" style={{ marginRight: '28px' }} />
           </a>
           <img src={link} width="33px" alt="linkdin" />
         </Redes>
