@@ -163,7 +163,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 98vw;
+  width: 100vw;
   height: 300vh;
 `
 
