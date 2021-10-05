@@ -132,10 +132,10 @@ export const Linha = styled.div`
 export const TextSou = styled.h1`
   font-size: 17px;
   color: gray;
-  margin-left: -710px;
+  margin-left: -800px;
   width: 230px;
   line-height: 27px;
-  margin-top: 188px;
+  margin-top: 208px;
   text-align: justify;
   /* 
   @media screen and (max-width: 700px) {
