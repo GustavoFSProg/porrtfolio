@@ -31,7 +31,7 @@ function Home() {
         </ListContainer>
       </ContainerImage>
       <HabilitiesContainer>
-        <div style={{ marginLeft: '60px', marginTop: '-50px' }}>
+        <div style={{ marginLeft: '60px', marginTop: '-120px' }}>
           <TitleSou>
             QUEM SOU
             <Linha />

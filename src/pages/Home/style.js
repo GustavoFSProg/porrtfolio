@@ -176,7 +176,7 @@ export const ContainerImage = styled.div`
   width: 100vw;
   height: 200px;
 
-  margin-top: 0px;
+  margin-top: -330px;
 
   /* @media screen and (max-width: 700px) {
     height: 350px;
@@ -226,7 +226,7 @@ export const HabilitiesContainer = styled.div`
   /* align-items: center; */
   background: #e6f3ff;
   width: 100vw;
-  height: 700px;
+  height: 500px;
   margin-top: 0px;
   z-index: 2;
 
