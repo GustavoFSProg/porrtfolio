@@ -10,6 +10,15 @@ export const Container = styled.div`
   width: 100%;
 
   height: 340vh;
+
+  @media screen and (min-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 300vh;
+  }
 `
 
 export const ContainerImage = styled.div`
@@ -23,9 +32,16 @@ export const ContainerImage = styled.div`
 
   /* margin-top: -290px; */
 
-  @media screen and (max-width: 700px) {
-    /* height: 350px; */
-    /* margin-top: -300px; */
+  @media screen and (min-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(${backImage});
+    width: 100vw;
+    height: 560px;
+
+    margin-top: 0px;
   }
 `
 
@@ -36,15 +52,24 @@ export const ListContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 325px;
+  @media screen and (min-width: 500px) {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 325px;
+  }
 `
 export const Image = styled.img`
   border-radius: 100%;
   width: 40%;
   height: auto;
 
-  @media screen and (max-width: 700px) {
-    /* height: 350px; */
-    margin-top: -80px;
+  @media screen and (min-width: 500px) {
+    border-radius: 100%;
+    width: 40%;
+    height: auto;
   }
 `
 export const ContainerFoto = styled.div`
@@ -74,12 +99,14 @@ export const HabilitiesContainer = styled.div`
   margin-top: 0px;
   z-index: 2;
 
-  @media screen and (max-width: 700px) {
-    /* flex-direction: column; */
-    /* align-items: center;
-    justify-content: center; */
-
-    /* margin-top: 280px; */
+  @media screen and (min-width: 500px) {
+    display: flex;
+    align-items: center;
+    background: #e6f3ff;
+    width: 100vw;
+    height: 700px;
+    margin-top: 0px;
+    z-index: 2;
   }
 `
 
@@ -92,6 +119,17 @@ export const HabilitiesBox = styled.div`
   height: 700px;
   /* margin-top: 100px; */
   z-index: 2;
+
+  @media screen and (min-width: 500px) {
+    display: flex;
+    align-items: center;
+    background: url(${pc});
+
+    width: 100vw;
+    height: 700px;
+    margin-top: 0px;
+    z-index: 2;
+  }
 `
 export const Title = styled.h1`
   font-size: 38px;
@@ -100,10 +138,12 @@ export const Title = styled.h1`
   margin-left: 120px;
   margin-top: -320px;
 
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-    margin-left: 0px;
-    margin-top: 0px;
+  @media screen and (min-width: 500px) {
+    font-size: 38px;
+    color: white;
+    font-family: 'Roboto';
+    margin-left: 120px;
+    margin-top: -320px;
   }
 `
 export const TitleSou = styled.h1`
@@ -114,13 +154,14 @@ export const TitleSou = styled.h1`
   margin-top: -40px;
   width: 780px;
 
-  /* @media screen and (max-width: 700px) {
-    flex-direction: column;
-    width: 1000px;
-    margin-top: -420px;
-    margin-left: 130px;
-    font-size: 30px;
-  } */
+  @media screen and (min-width: 500px) {
+    font-size: 38px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    margin-left: 180px;
+    margin-top: -270px;
+    width: 200px;
+  }
 `
 
 export const Linha = styled.div`
@@ -137,12 +178,16 @@ export const TextSou = styled.h1`
   line-height: 27px;
   margin-top: 208px;
   text-align: justify;
-  /* 
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-    width: 380px;
-    margin-right: 120px;
-  } */
+
+  @media screen and (min-width: 500px) {
+    font-size: 17px;
+    color: gray;
+    margin-left: -200px;
+    width: 480px;
+    line-height: 27px;
+    margin-top: -32px;
+    text-align: justify;
+  }
 `
 
 export const RedesContainer = styled.div`
