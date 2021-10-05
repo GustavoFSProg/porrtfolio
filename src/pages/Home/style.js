@@ -73,9 +73,9 @@ export const Image = styled.img`
   } */
 `
 export const ContainerFoto = styled.div`
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) {
     height: 60px;
-  }
+  } */
 `
 
 export const NameTitle = styled.h1`
