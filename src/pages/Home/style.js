@@ -32,7 +32,7 @@ export const ContainerImage = styled.div`
 
   /* margin-top: -290px; */
 
-  @media screen and (min-width: 500px) {
+  /* @media screen and (min-width: 500px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +42,7 @@ export const ContainerImage = styled.div`
     height: 560px;
 
     margin-top: 0px;
-  }
+  } */
 `
 
 export const ListContainer = styled.div`
@@ -52,14 +52,14 @@ export const ListContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 325px;
-  /* @media screen and (min-width: 500px) {
+  @media screen and (min-width: 500px) {
     display: flex;
     flex-direction: column;
 
     align-items: center;
     justify-content: center;
     margin-top: 325px;
-  } */
+  }
 `
 export const Image = styled.img`
   border-radius: 100%;
