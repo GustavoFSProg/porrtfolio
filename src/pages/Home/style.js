@@ -163,7 +163,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 88vw;
+  width: 68vw;
   height: 300vh;
 `
 
@@ -174,7 +174,7 @@ export const ContainerImage = styled.div`
   justify-content: center;
   background: url(${backImage});
   width: 100vw;
-  height: 200px;
+  height: 250px;
 
   /* margin-top: -330px; */
 
@@ -186,16 +186,17 @@ export const ContainerImage = styled.div`
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
+  height: 400px;
 
   align-items: center;
   justify-content: center;
-  margin-top: 325px;
+  margin-top: -100px;
 `
 export const Image = styled.img`
   border-radius: 100%;
   width: 40%;
   height: auto;
-  margin-top: -50px;
+  /* margin-top: 340px; */
 
   /* @media screen and (max-width: 700px) {
     /* height: 350px; */
@@ -211,7 +212,8 @@ export const ContainerFoto = styled.div`
 export const NameTitle = styled.h1`
   font-size: 28px;
   color: white;
-  margin-top: -205px;
+  /* background: green; */
+  margin-top: 305px;
   font-family: 'Roboto';
 
   /* @media screen and (max-width: 600px) {
@@ -227,7 +229,7 @@ export const HabilitiesContainer = styled.div`
   background: #e6f3ff;
   width: 100vw;
   height: 500px;
-  margin-top: 300px;
+  /* margin-top: 300px; */
   z-index: 2;
 
   /* @media screen and (max-width: 700px) {

@@ -14,6 +14,7 @@ import {
   ListUl,
   LinhaHabilliti,
   ContactContainer,
+  ContainerFoto,
 } from './style'
 import eu from '../../assets/eu.jpg'
 import face from '../../assets/face.jpg'
@@ -25,11 +26,12 @@ function Home() {
       <ContainerImage>
         <ListContainer>
           <NameTitle>Gustavo F. Sohne</NameTitle>
+          <ContainerFoto></ContainerFoto>
           <Image src={eu} style={{ zIndex: '4' }} alt="imagem" />
         </ListContainer>
       </ContainerImage>
       <HabilitiesContainer>
-        <div style={{ marginLeft: '110px' }}>
+        <div style={{ marginLeft: '60px', marginTop: '-120px' }}>
           <TitleSou>
             QUEM SOU
             <Linha />
