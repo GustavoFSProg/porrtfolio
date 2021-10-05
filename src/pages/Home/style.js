@@ -110,7 +110,7 @@ export const TitleSou = styled.h1`
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
   margin-left: 20px;
-  margin-top: -80px;
+  margin-top: -70px;
   width: 780px;
 
   /* @media screen and (max-width: 700px) {
