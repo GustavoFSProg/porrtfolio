@@ -133,7 +133,7 @@ function HomeMobile() {
             marginTop: '-1px',
           }}
         >
-          <div style={{ marginLeft: '60px', marginTop: '-60px' }}>
+          <div style={{ marginLeft: '40px', marginTop: '-60px' }}>
             <TitleSou style={{ color: 'white', width: '330px' }}>
               DADOS PESSOAIS
               <Linha />
