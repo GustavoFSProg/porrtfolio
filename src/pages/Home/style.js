@@ -164,7 +164,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 300vh;
+  height: 100vh;
 `
 
 export const ContainerImage = styled.div`
@@ -174,8 +174,10 @@ export const ContainerImage = styled.div`
   justify-content: center;
   background: url(${backImage});
   width: 100vw;
-  height: 310px;
-  /* margin-top: 30px; */
+  height: 220px;
+
+  /* height: 310px; */
+  /* margin-top: -230px; */
 
   /* margin-top: -330px; */
 
@@ -187,12 +189,14 @@ export const ContainerImage = styled.div`
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
-  height: 400px;
+  /* height: 100px; */
+  /* background: red; */
 
   align-items: center;
   justify-content: center;
-  margin-top: -100px;
+  margin-top: -142px;
 `
+
 export const Image = styled.img`
   border-radius: 100%;
   width: 40%;
