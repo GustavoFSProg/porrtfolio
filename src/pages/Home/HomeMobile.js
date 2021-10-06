@@ -46,7 +46,6 @@ function HomeMobile() {
               color: 'white',
               fontSize: '15px',
               background: 'gray',
-              border: 'none',
               textDecoration: 'none',
               fontWeight: 'bold',
               width: '110px',
@@ -55,7 +54,6 @@ function HomeMobile() {
               alignItems: 'center',
               justifyContent: 'center',
               marginTop: '40px',
-              // marginLeft: '-250px',
             }}
           >
             Portflólio

@@ -13,11 +13,9 @@ function Portfolio() {
         <Link
           to="/"
           style={{
-            border: '1px solid orange',
             color: 'white',
             fontSize: '15px',
             background: 'gray',
-            border: 'none',
             textDecoration: 'none',
             fontWeight: 'bold',
             width: '110px',
