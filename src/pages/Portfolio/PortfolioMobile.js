@@ -28,7 +28,7 @@ function Portfolio() {
       </ListContainer>
 
       <ListContainer>
-        <ItemBox style={{ marginTop: '-25px', paddingBottom: '5px' }}>
+        <ItemBox style={{ marginTop: '-25px', paddingBottom: '15px' }}>
           <Image src={cello} />
           <TitleBox>
             Site para divulgar jogos para alunos de violoncello para professores aplicarem aos
