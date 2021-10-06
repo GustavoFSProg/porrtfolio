@@ -40,7 +40,7 @@ export const ItemBox = styled.div`
   height: 382px;
   background: #005580;
 
-  margin-left: 25px;
+  margin-left: 20px;
   margin-top: -200px;
   display: flex;
   flex-direction: column;
