@@ -1,4 +1,3 @@
-import Home from './pages/Home/Home'
 import { Routes } from './router'
 
 function App() {
