@@ -98,7 +98,7 @@ export const Redes = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 40px;
-  margin-left: -400px;
+  margin-left: -440px;
 `
 export const ListUl = styled.ul`
   list-style: none;
@@ -130,5 +130,5 @@ export const ContactContainer = styled.div`
 
 export const ContainerSize = styled.div`
   margin-left: 200px;
-  margin-top: 250px;
+  margin-top: 240px;
 `
