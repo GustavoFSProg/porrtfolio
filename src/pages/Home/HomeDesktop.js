@@ -177,7 +177,7 @@ function HomeDesktop() {
         >
           <div style={{ marginTop: '80px', marginLeft: '-30px' }}>
             <TitleSou style={{ color: 'white', width: '500px' }}>
-              DADOS PESSOAIS
+              CONTATO
               <Linha />
               <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
                 <li style={{ fontSize: '21px' }}>Telefone: (51) 98457-6589</li>
@@ -201,7 +201,7 @@ function HomeDesktop() {
         >
           <div style={{ marginTop: '80px', marginLeft: '-30px' }}>
             <TitleSou style={{ color: 'white', width: '500px' }}>
-              DADOS PESSOAIS
+              CONTATO
               <Linha />
               <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
                 <li style={{ fontSize: '21px' }}>Telefone: (51) 98457-6589</li>

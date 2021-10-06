@@ -65,8 +65,8 @@ export const Title = styled.h1`
   font-size: 38px;
   color: white;
   font-family: 'Roboto';
-  margin-left: -40px;
-  margin-top: -320px;
+  margin-left: -230px;
+  margin-top: -330px;
 `
 export const TitleSou = styled.h1`
   font-size: 38px;
@@ -110,7 +110,7 @@ export const ListUl = styled.ul`
   display: flex;
   flex-direction: row;
   margin-top: 160px;
-  margin-left: -170px;
+  margin-left: -180px;
 `
 
 export const LinhaHabilliti = styled.div`
