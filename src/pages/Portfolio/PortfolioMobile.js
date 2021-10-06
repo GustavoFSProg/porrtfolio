@@ -84,7 +84,7 @@ function Portfolio() {
 
       <ListContainer>
         <ItemBox style={{ marginTop: '-25px', paddingBottom: '15px', height: '220px' }}>
-          <TitleSou style={{ color: 'white', width: '300px', fontSize: '15px' }}>
+          <TitleSou style={{ color: 'white', width: '280px', fontSize: '15px' }}>
             <h1 style={{ marginTop: '70px' }}>CONTATO</h1>
             <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
               <li style={{ fontSize: '15px', letterSpacing: '1px' }}>Telefone: (51) 98457-6589</li>
