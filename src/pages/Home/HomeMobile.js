@@ -19,6 +19,8 @@ import {
 import eu from '../../assets/eu.jpeg'
 import face from '../../assets/face.jpg'
 import link from '../../assets/linkdin.jpg'
+import currico from '../../assets/Curriculo.pdf'
+
 import { Link } from 'react-router-dom'
 
 function HomeMobile() {
@@ -58,6 +60,25 @@ function HomeMobile() {
           >
             Portflólio
           </Link>
+          <a
+            style={{
+              color: 'white',
+              fontSize: '15px',
+              background: 'gray',
+              textDecoration: 'none',
+              fontWeight: 'bold',
+              width: '110px',
+              height: '40px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              marginLeft: '0px',
+              marginTop: '30px',
+            }}
+            href={currico}
+          >
+            Curriculo
+          </a>
         </ContainerSize>
 
         {/* <RedesContainer> */}

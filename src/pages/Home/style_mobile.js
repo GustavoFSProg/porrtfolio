@@ -63,7 +63,7 @@ export const HabilitiesContainer = styled.div`
   /* align-items: center; */
   background: #e6f3ff;
   width: 100vw;
-  height: 500px;
+  height: 700px;
   padding-bottom: 70px;
   z-index: 2;
 
@@ -179,4 +179,5 @@ export const ContactContainer = styled.div`
 export const ContainerSize = styled.div`
   margin-left: 55px;
   margin-top: 60px;
+  height: 400px;
 `
