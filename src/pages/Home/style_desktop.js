@@ -125,6 +125,7 @@ export const ContactContainer = styled.div`
 
   width: 100vw;
   height: 700px;
+
   margin-top: 0px;
 `
 

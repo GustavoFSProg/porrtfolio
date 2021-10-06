@@ -19,6 +19,7 @@ import {
 import eu from '../../assets/eu.jpg'
 import face from '../../assets/face.jpg'
 import link from '../../assets/linkdin.jpg'
+import { Link } from 'react-router-dom'
 
 function HomeMobile() {
   return (
@@ -39,6 +40,9 @@ function HomeMobile() {
             Sou desenvolvedor Node js e React js, formado no curso de Sistemas de Informação da
             Escola Técnica da UFRGS em Porto Alegre - RS
           </TextSou>
+          <Link to="/portfolio" style={{ border: '1px solid orange', background: 'yellow' }}>
+            Portflólio
+          </Link>
         </ContainerSize>
 
         {/* <RedesContainer> */}

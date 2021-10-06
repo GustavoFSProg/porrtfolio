@@ -1,198 +1,69 @@
 import styled from 'styled-components'
 import backImage from '../../assets/background.png'
-import pc from '../../assets/pc.png'
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: url(${backImage});
   width: 100vw;
+  /* height: 850px; */
+  /* padding-top: 250px; */
+  /* width: 100vw; */
   height: 100vh;
 `
 
-export const ContainerImage = styled.div`
+export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url(${backImage});
   width: 100vw;
-  height: 220px;
-
-  @media screen and (min-width: 600px) {
-    margin-top: 770px;
-  }
+  height: 100vh;
+  margin-top: -500px;
 `
 
-export const ListContainer = styled.div`
+export const Title = styled.div``
+
+export const ListContainer = styled.p`
+  color: white;
+  margin-top: -150px;
+`
+
+export const ItemBox = styled.div`
+  width: 87%;
+  height: 382px;
+  background: #005580;
+
+  margin-left: 25px;
+  margin-top: -200px;
   display: flex;
   flex-direction: column;
-  /* height: 100px; */
-  /* background: red; */
-
   align-items: center;
-  justify-content: center;
-  margin-top: -142px;
+  border-radius: 7px;
+  /* justify-content: center; */
+`
+export const Ancor = styled.a`
+  text-decoration: none;
+  color: #cccccc;
 
-  @media screen and (min-width: 500px) {
-    margin-top: 542px;
+  :hover {
+    color: #a6a6a6;
   }
 `
-
 export const Image = styled.img`
-  border-radius: 100%;
-  width: 40%;
-  height: auto;
-  /* margin-top: 340px; */
-
-  /* @media screen and (max-width: 700px) {
-    /* height: 350px; */
-  /* margin-top: -80px; */
-  /* }  */
-`
-export const ContainerFoto = styled.div`
-  @media screen and (max-width: 600px) {
-    height: 60px;
-  }
-`
-
-export const NameTitle = styled.h1`
-  font-size: 28px;
-  color: white;
-  /* background: green; */
-  margin-top: 305px;
-  font-family: 'Roboto';
-`
-export const HabilitiesContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: center; */
-  background: #e6f3ff;
-  width: 100vw;
-  height: 500px;
-  /* margin-top: 300px; */
-  z-index: 2;
-
-  @media screen and (min-width: 500px) {
-    margin-top: 250px;
-  }
-
-  /* @media screen and (min-width: 500px) {
-    height: 300px;
-  } */
-`
-
-export const HabilitiesBox = styled.div`
-  display: flex;
-  align-items: center;
-  background: url(${pc});
-
-  width: 100vw;
-  height: 700px;
-  margin-top: 0px;
-  z-index: 2;
-  @media screen and (min-width: 500px) {
-    margin-top: 250px;
-  }
-  @media screen and (max-width: 600px) {
-    display: none;
-  }
-`
-export const Title = styled.h1`
-  font-size: 38px;
-  color: white;
-  font-family: 'Roboto';
-  margin-left: 120px;
-  margin-top: -320px;
-
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-
-    margin-left: 0px;
-    margin-top: 0px;
-  }
-`
-export const TitleSou = styled.h1`
-  font-size: 38px;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: black;
-`
-
-export const Linha = styled.div`
-  width: 50px;
-  height: 7px;
-  background: red;
+  width: 80%;
   margin-top: 20px;
-`
-export const TextSou = styled.h1`
-  font-size: 17px;
-  color: gray;
-  /* margin-right: 200px; */
-  /* margin-left: -680px; */
-  width: 220px;
-  line-height: 27px;
-  /* margin-top: 250px; */
-  text-align: justify;
+  border-radius: 10px;
 `
 
-export const RedesContainer = styled.div`
-  @media screen and (max-width: 700px) {
-    margin-right: 120px;
-  }
-`
-export const Redes = styled.div`
-  display: flex;
-  align-items: center;
-  margin-top: -350px;
-  margin-left: 40px;
-
-  @media screen and (max-width: 700px) {
-    flex-direction: row;
-    /* margin-right: 300px; */
-    margin-top: 270px;
-    display: none;
-  }
-`
-export const ListUl = styled.ul`
-  list-style: none;
-  font-family: 'Roboto';
+export const TitleBox = styled.div`
   color: white;
-  font-size: 28px;
   font-weight: bold;
-  line-height: 40px;
-  display: flex;
-  flex-direction: row;
-  margin-top: 160px;
-`
-
-export const LinhaHabilliti = styled.div`
-  width: 55px;
-  height: 7px;
-  background: white;
+  font-size: 15px;
   margin-top: 20px;
-`
-
-export const ContactContainer = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* align-items: center; */
-
-  width: 100vw;
-  height: 700px;
-  margin-top: 0px;
-
-  @media screen and (min-width: 500px) {
-    margin-top: 250px;
-  }
-
-  @media screen and (max-width: 600px) {
-    display: none;
-  }
-`
-
-export const ContainerSize = styled.div`
-  margin-left: 55px;
-  margin-top: 60px;
+  width: 270px;
+  text-align: center;
+  line-height: 22px;
 `
