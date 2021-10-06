@@ -11,7 +11,7 @@ export const Container = styled.div`
   /* height: 850px; */
   /* padding-top: 250px; */
   /* width: 100vw; */
-  height: 100vh;
+  height: auto;
 `
 
 export const Wrapper = styled.div`
@@ -32,7 +32,7 @@ export const Title = styled.span`
 
 export const ListContainer = styled.p`
   color: white;
-  margin-top: 200px;
+  margin-top: 250px;
 `
 
 export const ItemBox = styled.div`
