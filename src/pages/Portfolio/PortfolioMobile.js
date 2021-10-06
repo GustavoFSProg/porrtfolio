@@ -6,11 +6,12 @@ function Portfolio() {
   return (
     <Container>
       <Wrapper>
+        <Title>Portfólio</Title>
+        <br />
+        <br />
         <Link to="/" style={{ border: '1px solid orange', background: 'yellow' }}>
           Home
         </Link>
-
-        <Title>Portfólio</Title>
       </Wrapper>
       <ListContainer>
         <ItemBox>
