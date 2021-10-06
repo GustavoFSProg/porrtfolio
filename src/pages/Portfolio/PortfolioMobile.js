@@ -2,7 +2,6 @@ import { Container, Wrapper, Ancor, Title, ListContainer, ItemBox, Image, TitleB
 import piano from '../../assets/piano2.png'
 import cello from '../../assets/jogos2.png'
 import letmeask from '../../assets/letmeask2.png'
-import happy from '../../assets/happy2.png'
 import { Link } from 'react-router-dom'
 
 function Portfolio() {
@@ -73,7 +72,7 @@ function Portfolio() {
         </ItemBox>
       </ListContainer>
 
-      <ListContainer>
+      {/* <ListContainer>
         <ItemBox style={{ marginTop: '-25px', paddingBottom: '15px' }}>
           <Image src={happy} />
           <TitleBox>
@@ -85,7 +84,7 @@ function Portfolio() {
             </p>
           </TitleBox>
         </ItemBox>
-      </ListContainer>
+      </ListContainer> */}
     </Container>
   )
 }
