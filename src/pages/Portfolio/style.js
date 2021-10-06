@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  margin-top: 150px;
+  margin-top: -150px;
 `
 
 export const Title = styled.span`
@@ -32,7 +32,7 @@ export const Title = styled.span`
 
 export const ListContainer = styled.p`
   color: white;
-  margin-top: 250px;
+  margin-top: 50px;
 `
 
 export const ItemBox = styled.div`
