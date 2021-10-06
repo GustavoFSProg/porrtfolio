@@ -63,7 +63,7 @@ function Portfolio() {
         <ItemBox style={{ marginTop: '-25px', paddingBottom: '15px' }}>
           <Image src={letmeask} />
           <TitleBox>
-            Site Desenvolvido a partir do curso NLW da Rocketseat alunos
+            Site Desenvolvido a partir do curso NLW da Rocketseat
             <p>
               <Ancor style={{}} href="https://letmeask-course.netlify.app/">
                 Letmeask
@@ -77,7 +77,7 @@ function Portfolio() {
         <ItemBox style={{ marginTop: '-25px', paddingBottom: '15px' }}>
           <Image src={happy} />
           <TitleBox>
-            Site Desenvolvido a partir do curso NLW da Rocketseat alunos
+            Site Desenvolvido a partir do curso NLW da Rocketseat
             <p>
               <Ancor style={{}} href="https://happy-app-course.netlify.app/">
                 Happy

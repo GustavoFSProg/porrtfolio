@@ -25,7 +25,7 @@ export const Wrapper = styled.div`
 `
 
 export const Title = styled.span`
-  color: #e6f5ff;
+  color: #002633;
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 3px;
