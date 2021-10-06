@@ -28,7 +28,7 @@ export const Title = styled.div``
 
 export const ListContainer = styled.p`
   color: white;
-  margin-top: -150px;
+  margin-top: -50px;
 `
 
 export const ItemBox = styled.div`
