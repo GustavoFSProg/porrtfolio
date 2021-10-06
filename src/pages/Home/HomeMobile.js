@@ -40,7 +40,24 @@ function HomeMobile() {
             Sou desenvolvedor Node js e React js, formado no curso de Sistemas de Informação da
             Escola Técnica da UFRGS em Porto Alegre - RS
           </TextSou>
-          <Link to="/portfolio" style={{ border: '1px solid orange', background: 'yellow' }}>
+          <Link
+            to="/portfolio"
+            style={{
+              color: 'white',
+              fontSize: '15px',
+              background: 'gray',
+              border: 'none',
+              textDecoration: 'none',
+              fontWeight: 'bold',
+              width: '110px',
+              height: '40px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              marginTop: '40px',
+              // marginLeft: '-250px',
+            }}
+          >
             Portflólio
           </Link>
         </ContainerSize>

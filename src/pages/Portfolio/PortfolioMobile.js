@@ -10,7 +10,24 @@ function Portfolio() {
         <Title>Portfólio</Title>
         <br />
         <br />
-        <Link to="/" style={{ border: '1px solid orange', background: 'green' }}>
+        <Link
+          to="/"
+          style={{
+            border: '1px solid orange',
+            color: 'white',
+            fontSize: '15px',
+            background: 'gray',
+            border: 'none',
+            textDecoration: 'none',
+            fontWeight: 'bold',
+            width: '110px',
+            height: '40px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            marginLeft: '-250px',
+          }}
+        >
           Home
         </Link>
       </Wrapper>
