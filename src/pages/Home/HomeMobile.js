@@ -150,6 +150,7 @@ function HomeMobile() {
             fontSize: '38px',
             marginBottom: '20px',
             marginTop: '-1px',
+            width: '100vw',
           }}
         >
           <div style={{ marginLeft: '40px', marginTop: '-60px' }}>
