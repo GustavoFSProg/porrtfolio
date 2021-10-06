@@ -47,7 +47,7 @@ export const ItemBox = styled.div`
   flex-direction: column;
   align-items: center;
   border-radius: 7px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   /* justify-content: center; */
 `
 export const Ancor = styled.a`

@@ -21,16 +21,14 @@ function Portfolio() {
           <TitleBox>
             Site para Professora de Piano divulgar aulas particulares de piano
             <p>
-              <Ancor style={{}} href="http://www.pianopoa.com.br/">
-                pianopoa.com.br
-              </Ancor>
+              <Ancor href="http://www.pianopoa.com.br/">pianopoa.com.br</Ancor>
             </p>
           </TitleBox>
         </ItemBox>
       </ListContainer>
 
       <ListContainer>
-        <ItemBox style={{ marginTop: '-25px' }}>
+        <ItemBox style={{ marginTop: '-25px', paddingBottom: '25px' }}>
           <Image src={cello} />
           <TitleBox>
             Site para divulgar jogos para alunos de violoncello para professores aplicarem aos
