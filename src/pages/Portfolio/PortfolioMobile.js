@@ -1,6 +1,8 @@
 import { Container, Wrapper, Ancor, Title, ListContainer, ItemBox, Image, TitleBox } from './style'
-import piano from '../../assets/piano.png'
-import cello from '../../assets/jogoscello.png'
+import piano from '../../assets/piano2.png'
+import cello from '../../assets/jogos2.png'
+import letmeask from '../../assets/letmeask2.png'
+import happy from '../../assets/happy2.png'
 import { Link } from 'react-router-dom'
 
 function Portfolio() {
@@ -51,6 +53,34 @@ function Portfolio() {
             <p>
               <Ancor style={{}} href="https://jogoscello.com/">
                 jogoscello.com
+              </Ancor>
+            </p>
+          </TitleBox>
+        </ItemBox>
+      </ListContainer>
+
+      <ListContainer>
+        <ItemBox style={{ marginTop: '-25px', paddingBottom: '15px' }}>
+          <Image src={letmeask} />
+          <TitleBox>
+            Site Desenvolvido a partir do curso NLW da Rocketseat alunos
+            <p>
+              <Ancor style={{}} href="https://letmeask-course.netlify.app/">
+                Letmeask
+              </Ancor>
+            </p>
+          </TitleBox>
+        </ItemBox>
+      </ListContainer>
+
+      <ListContainer>
+        <ItemBox style={{ marginTop: '-25px', paddingBottom: '15px' }}>
+          <Image src={happy} />
+          <TitleBox>
+            Site Desenvolvido a partir do curso NLW da Rocketseat alunos
+            <p>
+              <Ancor style={{}} href="https://happy-app-course.netlify.app/">
+                Happy
               </Ancor>
             </p>
           </TitleBox>
