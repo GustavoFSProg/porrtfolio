@@ -35,6 +35,14 @@ export const ListContainer = styled.p`
   color: white;
   margin-top: 50px;
 `
+export const TitleSou = styled.h1`
+  font-size: 38px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  margin-left: 45px;
+  margin-top: -40px;
+  width: 40px;
+`
 
 export const ItemBox = styled.div`
   width: 87%;
