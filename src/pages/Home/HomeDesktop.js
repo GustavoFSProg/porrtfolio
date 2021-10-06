@@ -138,8 +138,12 @@ function HomeDesktop() {
               DADOS PESSOAIS
               <Linha />
               <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
-                <li style={{ fontSize: '21px' }}>Telefone: (51) 98457-6589</li>
-                <li style={{ fontSize: '21px' }}>Email: gustavosohne38@gmail.com</li>
+                <li style={{ fontSize: '21px', letterSpacing: '0.6px' }}>
+                  Telefone: (51) 98457-6589
+                </li>
+                <li style={{ fontSize: '21px', letterSpacing: '0.6px' }}>
+                  Email: gustavosohne38@gmail.com
+                </li>
               </ul>
             </TitleSou>
           </div>
@@ -162,8 +166,12 @@ function HomeDesktop() {
               CONTATO
               <Linha />
               <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
-                <li style={{ fontSize: '21px' }}>Telefone: (51) 98457-6589</li>
-                <li style={{ fontSize: '21px' }}>Email: gustavosohne38@gmail.com</li>
+                <li style={{ fontSize: '21px', letterSpacing: '0.8px' }}>
+                  Telefone: (51) 98457-6589
+                </li>
+                <li style={{ fontSize: '21px', letterSpacing: '0.8px' }}>
+                  Email: gustavosohne38@gmail.com
+                </li>
               </ul>
             </TitleSou>
           </div>

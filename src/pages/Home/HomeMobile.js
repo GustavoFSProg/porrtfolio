@@ -157,8 +157,12 @@ function HomeMobile() {
               DADOS PESSOAIS
               <Linha />
               <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
-                <li style={{ fontSize: '18px' }}>Telefone: (51) 98457-6589</li>
-                <li style={{ fontSize: '18px' }}>Email: gustavosohne38@gmail.com</li>
+                <li style={{ fontSize: '18px', letterSpacing: '1px' }}>
+                  Telefone: (51) 98457-6589
+                </li>
+                <li style={{ fontSize: '18px', letterSpacing: '1px' }}>
+                  Email: gustavosohne38@gmail.com
+                </li>
               </ul>
             </TitleSou>
           </div>

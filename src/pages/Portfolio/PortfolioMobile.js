@@ -87,8 +87,10 @@ function Portfolio() {
           <TitleSou style={{ color: 'white', width: '300px', fontSize: '15px' }}>
             <h1 style={{ marginTop: '70px' }}>CONTATO</h1>
             <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
-              <li style={{ fontSize: '16px' }}>Telefone: (51) 98457-6589</li>
-              <li style={{ fontSize: '16px' }}>Email: gustavosohne38@gmail.com</li>
+              <li style={{ fontSize: '15px', letterSpacing: '1px' }}>Telefone: (51) 98457-6589</li>
+              <li style={{ fontSize: '15px', letterSpacing: '1px' }}>
+                Email: gustavosohne38@gmail.com
+              </li>
             </ul>
           </TitleSou>
         </ItemBox>
