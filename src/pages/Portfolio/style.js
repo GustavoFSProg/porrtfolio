@@ -21,14 +21,14 @@ export const Wrapper = styled.div`
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  margin-top: -30px;
+  margin-top: 200px;
 `
 
 export const Title = styled.div``
 
 export const ListContainer = styled.p`
   color: white;
-  margin-top: -50px;
+  margin-top: 250px;
 `
 
 export const ItemBox = styled.div`
