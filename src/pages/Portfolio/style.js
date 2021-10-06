@@ -38,7 +38,7 @@ export const ListContainer = styled.p`
 
 export const ItemBox = styled.div`
   width: 87%;
-  height: 342px;
+  height: 330px;
   background: #005580;
 
   margin-left: 20px;
