@@ -16,7 +16,7 @@ import {
   ContactContainer,
   ContainerSize,
 } from './style_desktop'
-import eu from '../../assets/eu.jpg'
+import eu from '../../assets/eu.jpeg'
 import face from '../../assets/face.jpg'
 import link from '../../assets/linkdin.jpg'
 
