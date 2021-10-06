@@ -38,7 +38,7 @@ export const ListContainer = styled.p`
 
 export const ItemBox = styled.div`
   width: 87%;
-  height: 382px;
+  height: 362px;
   background: #005580;
 
   margin-left: 20px;
@@ -47,7 +47,7 @@ export const ItemBox = styled.div`
   flex-direction: column;
   align-items: center;
   border-radius: 7px;
-  /* padding-bottom: 5px; */
+  padding-bottom: 10px;
   /* justify-content: center; */
 `
 export const Ancor = styled.a`
