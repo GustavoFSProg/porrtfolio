@@ -8,8 +8,7 @@ import {
   ItemBox,
   Image,
   TitleBox,
-} from './styleMobile'
-
+} from './styleDesktop'
 import piano from '../../assets/piano2.png'
 import cello from '../../assets/jogos2.png'
 import letmeask from '../../assets/letmeask2.png'
@@ -35,13 +34,12 @@ function Portfolio() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            marginLeft: '-150px',
+            marginLeft: '-510px',
           }}
         >
           Home
         </Link>
       </Wrapper>
-
       <ListContainer>
         <ItemBox>
           <Image src={piano} />
@@ -53,9 +51,8 @@ function Portfolio() {
           </TitleBox>
         </ItemBox>
       </ListContainer>
-
       <ListContainer>
-        <ItemBox style={{ marginTop: '-25px', paddingBottom: '15px' }}>
+        <ItemBox style={{ marginTop: '-25px', paddingBottom: '17px' }}>
           <Image src={cello} />
           <TitleBox>
             Site para divulgar jogos para alunos de violoncello para professores aplicarem aos
@@ -68,7 +65,6 @@ function Portfolio() {
           </TitleBox>
         </ItemBox>
       </ListContainer>
-
       <ListContainer>
         <ItemBox style={{ marginTop: '-25px', paddingBottom: '15px' }}>
           <Image src={letmeask} />
@@ -82,9 +78,15 @@ function Portfolio() {
           </TitleBox>
         </ItemBox>
       </ListContainer>
-
       <ListContainer>
-        <ItemBox style={{ marginTop: '-25px', paddingBottom: '15px', height: '220px' }}>
+        <ItemBox
+          style={{
+            marginTop: '25px',
+            marginLeft: '-20px',
+            height: '220px',
+            width: '99vw',
+          }}
+        >
           <TitleSou style={{ color: 'white', width: '280px', fontSize: '15px' }}>
             <h1 style={{ marginTop: '70px' }}>CONTATO</h1>
             <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>

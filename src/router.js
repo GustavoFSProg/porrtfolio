@@ -1,5 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Portfolio from './pages/Portfolio/PortfolioMobile'
+import Portfolio from './pages/Portfolio/Portfolio'
 import Home from './pages/Home/Home'
 
 export function Routes() {

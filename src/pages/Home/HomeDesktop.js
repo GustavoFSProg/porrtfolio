@@ -19,6 +19,7 @@ import {
 import eu from '../../assets/eu.jpeg'
 import face from '../../assets/face.jpg'
 import link from '../../assets/linkdin.jpg'
+import { Link } from 'react-router-dom'
 
 function HomeDesktop() {
   return (
@@ -42,6 +43,7 @@ function HomeDesktop() {
         </ContainerSize>
 
         {/* <RedesContainer> */}
+
         <Redes>
           <a href="https://www.facebook.com/gustavo.sohne.771">
             <img src={face} width="30px" alt="facebook" style={{ marginRight: '28px' }} />
@@ -51,6 +53,25 @@ function HomeDesktop() {
         {/* </RedesContainer> */}
       </HabilitiesContainer>
       <HabilitiesBox>
+        <Link
+          to="/portfolio"
+          style={{
+            color: 'white',
+            fontSize: '15px',
+            background: 'gray',
+            textDecoration: 'none',
+            fontWeight: 'bold',
+            width: '110px',
+            height: '40px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            marginLeft: '220px',
+            marginTop: '-700px',
+          }}
+        >
+          Portfolio
+        </Link>
         <Title>
           Habilidades
           <LinhaHabilliti />
@@ -138,12 +159,8 @@ function HomeDesktop() {
               DADOS PESSOAIS
               <Linha />
               <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
-                <li style={{ fontSize: '21px', letterSpacing: '0.6px' }}>
-                  Telefone: (51) 98457-6589
-                </li>
-                <li style={{ fontSize: '21px', letterSpacing: '0.6px' }}>
-                  Email: gustavosohne38@gmail.com
-                </li>
+                <li style={{ fontSize: '21px' }}>Telefone: (51) 98457-6589</li>
+                <li style={{ fontSize: '21px' }}>Email: gustavosohne38@gmail.com</li>
               </ul>
             </TitleSou>
           </div>
@@ -163,15 +180,11 @@ function HomeDesktop() {
         >
           <div style={{ marginTop: '80px', marginLeft: '-30px' }}>
             <TitleSou style={{ color: 'white', width: '500px' }}>
-              CONTATO
+              DADOS PESSOAIS
               <Linha />
               <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
-                <li style={{ fontSize: '21px', letterSpacing: '0.8px' }}>
-                  Telefone: (51) 98457-6589
-                </li>
-                <li style={{ fontSize: '21px', letterSpacing: '0.8px' }}>
-                  Email: gustavosohne38@gmail.com
-                </li>
+                <li style={{ fontSize: '21px' }}>Telefone: (51) 98457-6589</li>
+                <li style={{ fontSize: '21px' }}>Email: gustavosohne38@gmail.com</li>
               </ul>
             </TitleSou>
           </div>

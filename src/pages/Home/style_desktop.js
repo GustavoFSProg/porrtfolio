@@ -56,16 +56,16 @@ export const HabilitiesBox = styled.div`
   display: flex;
   align-items: center;
   background: url(${pc});
-
+  padding-bottom: 48px;
   width: 100vw;
-  height: 700px;
+  height: 800px;
   z-index: 2;
 `
 export const Title = styled.h1`
   font-size: 38px;
   color: white;
   font-family: 'Roboto';
-  margin-left: 120px;
+  margin-left: -40px;
   margin-top: -320px;
 `
 export const TitleSou = styled.h1`
@@ -110,6 +110,7 @@ export const ListUl = styled.ul`
   display: flex;
   flex-direction: row;
   margin-top: 160px;
+  margin-left: -170px;
 `
 
 export const LinhaHabilliti = styled.div`
