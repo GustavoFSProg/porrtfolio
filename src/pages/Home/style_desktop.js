@@ -9,7 +9,8 @@ export const Container = styled.div`
   justify-content: center;
   width: 100%;
 
-  height: 340vh;
+  /* height: 340vh; */
+  height: 1840px;
 `
 
 export const ContainerImage = styled.div`
@@ -19,10 +20,11 @@ export const ContainerImage = styled.div`
   /* justify-content: center; */
   background: url(${backImage});
   width: 100%;
-  height: 520px;
-  z-index: 3;
+  height: 620px;
+  padding-top: 50px;
+  /* z-index: 3; */
 
-  margin-top: -490px;
+  /* margin-top: -490px; */
 `
 
 export const ListContainer = styled.div`
@@ -31,7 +33,8 @@ export const ListContainer = styled.div`
 
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 300px;
+  /* height: 500px; */
 `
 export const Image = styled.img`
   border-radius: 100%;
@@ -51,8 +54,8 @@ export const HabilitiesContainer = styled.div`
   align-items: center;
   background: #e6f3ff;
   width: 100vw;
-  height: 600px;
-  padding-bottom: 100px;
+  /* height: 600px; */
+  padding-bottom: 200px;
   margin-top: 0px;
   z-index: 2;
 `
@@ -103,7 +106,7 @@ export const Redes = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -180px;
+  margin-top: -20px;
   margin-left: -400px;
 
   /* margin-top: 270px; */
@@ -139,5 +142,5 @@ export const ContactContainer = styled.div`
 
 export const ContainerSize = styled.div`
   margin-left: 200px;
-  margin-top: 60px;
+  margin-top: 200px;
 `
