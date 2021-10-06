@@ -16,7 +16,7 @@ function Portfolio() {
       </Wrapper>
 
       <ListContainer>
-        <ItemBox style={{ paddingBottom: '10px' }}>
+        <ItemBox>
           <Image src={piano} />
           <TitleBox>
             Site para Professora de Piano divulgar aulas particulares de piano
@@ -30,7 +30,7 @@ function Portfolio() {
       </ListContainer>
 
       <ListContainer>
-        <ItemBox style={{ marginTop: '-25px', paddingBottom: '30px' }}>
+        <ItemBox style={{ marginTop: '-25px' }}>
           <Image src={cello} />
           <TitleBox>
             Site para divulgar jogos para alunos de violoncello para professores aplicarem aos
