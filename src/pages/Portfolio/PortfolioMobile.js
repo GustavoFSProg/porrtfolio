@@ -23,7 +23,7 @@ function Portfolio() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            marginLeft: '-250px',
+            marginLeft: '-180px',
           }}
         >
           Home
