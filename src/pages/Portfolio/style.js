@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  margin-top: -100px;
+  margin-top: -30px;
 `
 
 export const Title = styled.div``
