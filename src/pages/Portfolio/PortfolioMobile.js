@@ -10,7 +10,7 @@ function Portfolio() {
         <Title>Portfólio</Title>
         <br />
         <br />
-        <Link to="/" style={{ border: '1px solid orange', background: 'pink' }}>
+        <Link to="/" style={{ border: '1px solid orange', background: 'red' }}>
           Home
         </Link>
       </Wrapper>
@@ -28,7 +28,7 @@ function Portfolio() {
       </ListContainer>
 
       <ListContainer>
-        <ItemBox style={{ marginTop: '-25px', paddingBottom: '10px' }}>
+        <ItemBox style={{ marginTop: '-25px', paddingBottom: '5px' }}>
           <Image src={cello} />
           <TitleBox>
             Site para divulgar jogos para alunos de violoncello para professores aplicarem aos
