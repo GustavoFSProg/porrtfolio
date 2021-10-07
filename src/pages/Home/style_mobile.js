@@ -165,11 +165,11 @@ export const ContactContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   /* align-items: center; */
 
-  width: 75%;
+  width: 77%;
 
   height: 450px;
   margin-top: 0px;
-  margin-left: -90px;
+  margin-left: -82px;
 
   @media screen and (min-width: 500px) {
     margin-top: 250px;
