@@ -52,7 +52,7 @@ function Portfolio() {
         </ItemBox>
       </ListContainer>
       <ListContainer>
-        <ItemBox style={{ marginTop: '-25px', paddingBottom: '17px' }}>
+        <ItemBox style={{ marginTop: '-25px', paddingBottom: '40px' }}>
           <Image src={cello} />
           <TitleBox>
             Site para divulgar jogos para alunos de violoncello para professores aplicarem aos
@@ -66,7 +66,7 @@ function Portfolio() {
         </ItemBox>
       </ListContainer>
       <ListContainer>
-        <ItemBox style={{ marginTop: '-25px', paddingBottom: '15px' }}>
+        <ItemBox style={{ marginTop: '-25px', paddingBottom: '25px' }}>
           <Image src={letmeask} />
           <TitleBox>
             Site Desenvolvido a partir do curso NLW da Rocketseat
