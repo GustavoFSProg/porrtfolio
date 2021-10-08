@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 `
 
@@ -17,7 +17,7 @@ export const ContainerImage = styled.div`
   align-items: center;
   justify-content: center;
   background: url(${backImage});
-  width: 100vw;
+  width: 100%;
   height: 950px;
   padding-top: 250px;
 `
@@ -25,7 +25,6 @@ export const ContainerImage = styled.div`
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
-  /* height: 100px; */
 
   align-items: center;
   justify-content: center;
@@ -36,12 +35,6 @@ export const Image = styled.img`
   border-radius: 100%;
   width: 40%;
   height: auto;
-  /* margin-top: 340px; */
-
-  /* @media screen and (max-width: 700px) {
-    /* height: 350px; */
-  /* margin-top: -80px; */
-  /* }  */
 `
 export const ContainerFoto = styled.div`
   @media screen and (max-width: 600px) {
@@ -62,7 +55,7 @@ export const HabilitiesContainer = styled.div`
   justify-content: center;
   /* align-items: center; */
   background: #e6f3ff;
-  width: 100vw;
+  width: 100%;
   height: 700px;
   padding-bottom: 70px;
   z-index: 2;
@@ -70,10 +63,6 @@ export const HabilitiesContainer = styled.div`
   @media screen and (min-width: 500px) {
     margin-top: 250px;
   }
-
-  /* @media screen and (min-width: 500px) {
-    height: 300px;
-  } */
 `
 
 export const HabilitiesBox = styled.div`
@@ -82,7 +71,7 @@ export const HabilitiesBox = styled.div`
   align-items: center;
   background: url(${pc});
 
-  width: 100vw;
+  width: 100%;
   height: 700px;
   margin-top: 0px;
   z-index: 2;
@@ -166,7 +155,7 @@ export const ContactContainer = styled.div`
   /* align-items: center; */
 
   /* width: 77%; */
-  width: 100vw;
+  width: 100%;
 
   height: 450px;
   margin-top: 0px;
