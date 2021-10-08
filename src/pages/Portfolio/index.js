@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 
-import Mobile from './Mobile'
+import { Mobile } from './Mobile'
 import { Desktop } from './Desktop'
 
 export const Portfolio = () => {
