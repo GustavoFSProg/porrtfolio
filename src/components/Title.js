@@ -9,7 +9,7 @@ const StyledTitle = styled.h1`
 `
 
 const UnderLine = styled.div`
-  background: ${({ color }) => color || 'red'};
+  background: red;
   width: 50px;
   height: 7px;
   margin: 0.5rem 0 2rem 0;
@@ -18,6 +18,6 @@ const UnderLine = styled.div`
 export const Title = ({ color, children }) => (
   <>
     <StyledTitle color={color}>{children}</StyledTitle>
-    <UnderLine color={color} />
+    <UnderLine />
   </>
 )
