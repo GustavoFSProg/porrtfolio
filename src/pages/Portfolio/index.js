@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 
 import Mobile from './Mobile'
-import Desktop from './Desktop'
+import { Desktop } from './Desktop'
 
-export default function Porfolio() {
+export const Portfolio = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
   const isMobileScreen = useMemo(() => windowWidth <= 500, [windowWidth])

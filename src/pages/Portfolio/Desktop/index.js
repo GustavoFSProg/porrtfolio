@@ -11,7 +11,7 @@ import {
   Link,
 } from './style'
 
-const Desktop = () => (
+export const Desktop = () => (
   <Container>
     <Wrapper>
       <Title>Portfólio</Title>
@@ -76,5 +76,3 @@ const Desktop = () => (
     </ListContainer>
   </Container>
 )
-
-export default Desktop
