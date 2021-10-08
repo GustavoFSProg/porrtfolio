@@ -1,3 +1,4 @@
+import { Link as L } from 'react-router-dom'
 import styled from 'styled-components'
 
 export const Container = styled.div`
@@ -7,9 +8,6 @@ export const Container = styled.div`
   justify-content: center;
   background: url('/images/background.png');
   width: 100vw;
-  /* height: 850px; */
-  /* padding-top: 250px; */
-  /* width: 100vw; */
   height: auto;
 `
 
@@ -78,4 +76,18 @@ export const TitleBox = styled.div`
   width: 270px;
   text-align: center;
   line-height: 22px;
+`
+
+export const Link = styled(L)`
+  color: white;
+  font-size: 15px;
+  background: gray;
+  text-decoration: none;
+  font-weight: bold;
+  width: 110px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -510px;
 `

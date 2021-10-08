@@ -5,6 +5,7 @@ import { Section } from 'components/Section'
 import { Title } from 'components/Title'
 import { Paragraph } from 'components/Paragraph'
 import { Header, HTitle, Picture, WhoIAm, Buttons, Button } from './style'
+import { Link } from 'react-router-dom'
 
 export const AboutMe = () => {
   const { push } = useHistory()
@@ -27,7 +28,9 @@ export const AboutMe = () => {
 
         <Buttons>
           <Button onClick={() => push('portfolio')}>Porfólio</Button>
-          <Button ml={3}>Currículo</Button>
+          <Link to="/docs/cv.pdf" target="_blank">
+            <Button ml={3}>Currículo</Button>
+          </Link>
         </Buttons>
       </WhoIAm>
     </Section>

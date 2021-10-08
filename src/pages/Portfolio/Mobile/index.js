@@ -11,7 +11,7 @@ import {
   Link,
 } from './style'
 
-export const Portfolio = () => (
+const Mobile = () => (
   <Container>
     <Wrapper>
       <Title>Portfólio</Title>
@@ -75,3 +75,5 @@ export const Portfolio = () => (
     </ListContainer>
   </Container>
 )
+
+export default Mobile
