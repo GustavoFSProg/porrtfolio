@@ -14,14 +14,13 @@ export const Card = styled.div`
   width: 100%;
   background: #006699;
   border-radius: 0.5rem 8rem 0.5rem;
-  width: 800px;
   padding: 1rem 2rem 2rem 2rem;
   color: #fff;
   margin-bottom: 2rem;
 
   @media screen and (max-width: 720px) {
     width: 100%;
-    margin-left: 20px;
+    height: 30rem;
   } ;
 `
 
@@ -51,6 +50,7 @@ export const Image = styled.a`
   }
 
   @media screen and (max-width: 720px) {
-    width: 90%;
+    width: 110%;
+    /* width: 90%; */
   }
 `

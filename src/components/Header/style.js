@@ -49,5 +49,7 @@ export const GoBackIcon = styled.svg`
 
   @media screen and (max-width: 720px) {
     margin-top: -145px;
+    width: 3rem;
+    height: 5rem;
   }
 `
