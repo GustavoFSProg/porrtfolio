@@ -1,21 +1,52 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react'
+import React, { useEffect } from 'react'
+import { Header } from 'components/Header'
+import { Title } from 'components/Title'
 
-import { Mobile } from './Mobile'
-import { Desktop } from './Desktop'
+import { Content, Card, Description, Image } from './style'
+import { useHistory } from 'react-router'
+
+const clients = [
+  {
+    title: 'Piano Poa',
+    description: 'Site para Professora de Piano divulgar aulas particulares de piano',
+    image: '/images/jordana-brusa.png',
+    link: 'http://www.pianopoa.com.br/',
+  },
+  {
+    title: 'Jogos Cello',
+    description:
+      'Site para divulgar jogos para alunos de violoncello para professores aplicarem aos alunos',
+    image: '/images/jogos.png',
+    link: 'https://jogoscello.com/',
+  },
+  {
+    title: 'Letmeask',
+    description: 'Site Desenvolvido a partir do curso NLW da Rocketseat',
+    image: '/images/letmeask.png',
+    link: 'https://letmeask-course.netlify.app/',
+  },
+]
 
 export const Portfolio = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-
-  const isMobileScreen = useMemo(() => windowWidth <= 500, [windowWidth])
-
-  const updateWindowWidth = useCallback(() => {
-    setWindowWidth(window.innerWidth)
-  }, [])
-
+  const { push } = useHistory()
   useEffect(() => {
-    window.addEventListener('resize', updateWindowWidth)
-    return () => window.removeEventListener('resize', updateWindowWidth)
-  }, [updateWindowWidth])
-
-  return <>{isMobileScreen ? <Mobile /> : <Desktop />}</>
+    window.scrollTo({ top: 0 })
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+  }, [])
+  return (
+    <>
+      <Header>Portfólio</Header>
+      <Content>
+        <button onClick={() => push('/')}>Home</button>
+        {clients.map((client) => (
+          <Card key={client.title}>
+            <Title color="#fff">{client.title}</Title>
+            <Image src={client.image} href={client.link} target="_blank" rel="noreferrer" />
+            <Description>{client.description}</Description>
+          </Card>
+        ))}
+      </Content>
+    </>
+  )
 }

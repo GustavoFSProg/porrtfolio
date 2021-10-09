@@ -29,13 +29,13 @@ export const Title = styled.span`
 `
 
 export const ListContainer = styled.p`
-  color: white;
+  color: #fff;
   margin-top: 50px;
 `
 export const TitleSou = styled.h1`
   font-size: 38px;
   font-family: 'Source Sans Pro', sans-serif;
-  color: black;
+  color: #222;
   margin-left: 45px;
   margin-top: -40px;
   width: 40px;
@@ -69,7 +69,7 @@ export const Image = styled.img`
 `
 
 export const TitleBox = styled.div`
-  color: white;
+  color: #fff;
   font-weight: bold;
   font-size: 15px;
   margin-top: 20px;
@@ -79,7 +79,7 @@ export const TitleBox = styled.div`
 `
 
 export const Link = styled(L)`
-  color: white;
+  color: #fff;
   font-size: 15px;
   background: gray;
   text-decoration: none;

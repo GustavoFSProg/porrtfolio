@@ -62,7 +62,7 @@ h2 {
 button {
   cursor: pointer;
   background: gray;
-  color: white;
+  color: #fff;
   border: 0px;
   padding: 1rem;
   width: 100%;
@@ -74,6 +74,10 @@ button {
 
 button:hover {
   background: dimgray;
+}
+
+a {
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar {

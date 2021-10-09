@@ -1,6 +1,5 @@
 import {
   Container,
-  TitleSou,
   Wrapper,
   Ancor,
   Title,
@@ -32,7 +31,7 @@ export const Desktop = () => (
     </ListContainer>
     <ListContainer>
       <ItemBox style={{ marginTop: '-25px', paddingBottom: '60px' }}>
-        <Image src="/images/jogos2.png" />
+        <Image src="/images/jogos.png" />
         <TitleBox>
           Site para divulgar jogos para alunos de violoncello para professores aplicarem aos alunos
           <p>
@@ -45,33 +44,13 @@ export const Desktop = () => (
     </ListContainer>
     <ListContainer>
       <ItemBox style={{ marginTop: '-25px', paddingBottom: '35px' }}>
-        <Image src="/images/letmeask2.png" />
+        <Image src="/images/letmeask.png" />
         <TitleBox>
           Site Desenvolvido a partir do curso NLW da Rocketseat
           <p>
             <Ancor href="https://letmeask-course.netlify.app/">Letmeask</Ancor>
           </p>
         </TitleBox>
-      </ItemBox>
-    </ListContainer>
-    <ListContainer>
-      <ItemBox
-        style={{
-          marginTop: '25px',
-          marginLeft: '-20px',
-          height: '220px',
-          width: '99vw',
-        }}
-      >
-        <TitleSou style={{ color: 'white', width: '280px', fontSize: '15px' }}>
-          <h1 style={{ marginTop: '70px' }}>CONTATO</h1>
-          <ul style={{ listStyle: 'none', marginLeft: '-40px', lineHeight: '40px' }}>
-            <li style={{ fontSize: '15px', letterSpacing: '1px' }}>Telefone: (51) 98457-6589</li>
-            <li style={{ fontSize: '15px', letterSpacing: '1px' }}>
-              Email: gustavosohne38@gmail.com
-            </li>
-          </ul>
-        </TitleSou>
       </ItemBox>
     </ListContainer>
   </Container>

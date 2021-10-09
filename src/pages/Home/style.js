@@ -24,7 +24,7 @@ export const Header = styled.div`
 export const HeaderTitle = styled.h1`
   font-size: 4rem;
   font-weight: 600;
-  color: white;
+  color: #fff;
   font-family: 'Roboto';
 `
 
@@ -49,13 +49,13 @@ export const AboutMe = styled.div`
 
 export const Title = styled.h1`
   font-family: 'Source Sans Pro';
-  color: black;
+  color: #222;
   font-size: 3rem;
 `
 
 export const SkillTitle = styled.div`
   font-family: 'Source Sans Pro';
-  color: black;
+  color: #222;
   font-size: 4rem;
 `
 

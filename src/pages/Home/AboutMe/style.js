@@ -1,37 +1,26 @@
 import styled from 'styled-components'
-
-const headerHeighPercentage = 35
-
-export const Header = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: ${() => `${headerHeighPercentage}vh`};
-  width: 100%;
-  background: url('/images/background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-`
-
-export const HTitle = styled.h1`
-  font-size: 4.5rem;
-  color: white;
-  font-family: 'Roboto';
-`
+import { Link } from 'react-router-dom'
+import { headerHeightPercentage } from 'Constants'
 
 export const Picture = styled.div`
   position: absolute;
-  top: ${() => `${headerHeighPercentage}vh`};
-  width: 150px;
-  height: 150px;
-  margin-top: -75px;
+  top: ${() => `${headerHeightPercentage}vh`};
+  width: 15rem;
+  height: 15rem;
+  margin-top: -7.5rem;
   background-image: url('/images/picture.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 100px;
+  border-radius: 100%;
+  border: 0.5rem solid #e6f3ff;
+
+  @media screen and (max-width: 720px) {
+    width: 10rem;
+    height: 10rem;
+    margin-top: -5rem;
+    top: ${() => `${headerHeightPercentage - 10}vh`};
+  }
 `
 
 export const WhoIAm = styled.div`
@@ -40,13 +29,47 @@ export const WhoIAm = styled.div`
   justify-content: center;
   background: #e6f3ff;
   max-width: 60%;
-  height: ${() => `${100 - headerHeighPercentage}vh`};
+  height: ${() => `${100 - headerHeightPercentage}vh`};
+
+  @media screen and (max-width: 720px) {
+    height: ${() => `${110 - headerHeightPercentage}vh`};
+    padding: 1rem;
+    width: 100%;
+    max-width: 100%;
+  }
 `
 
 export const Buttons = styled.div`
+  display: flex;
+  flex-direction: row;
   margin-top: 1rem;
+
+  @media screen and (max-width: 720px) {
+    margin-top: 3rem;
+    justify-content: space-between;
+  }
 `
 
-export const Button = styled.button`
-  margin-left: ${({ ml }) => `${ml}rem` || '0'};
+export const ExtButton = styled(Link)`
+  cursor: pointer;
+  background: gray;
+  color: #fff;
+  border: 0px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 150px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: 0.25s;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 3rem;
+
+  &:hover {
+    background: dimgray;
+  }
+
+  @media screen and (max-width: 720px) {
+    margin-left: 0;
+  }
 `
