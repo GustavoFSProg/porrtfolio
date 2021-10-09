@@ -1,6 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
+import { Footer } from 'components/Footer'
+import { Router } from './router'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+import './global.css'
+
+ReactDOM.render(
+  <>
+    <Router />
+    <Footer />
+  </>,
+  document.getElementById('root')
+)

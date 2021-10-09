@@ -1,14 +1,12 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Portfolio from './pages/Portfolio/Portfolio'
-import Home from './pages/Home/Home'
+import { Home } from 'pages/Home'
+import { Portfolio } from 'pages/Portfolio'
 
-export function Routes() {
-  return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/portfolio" component={Portfolio} />
-      </Switch>
-    </BrowserRouter>
-  )
-}
+export const Router = () => (
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/portfolio" component={Portfolio} />
+    </Switch>
+  </BrowserRouter>
+)
