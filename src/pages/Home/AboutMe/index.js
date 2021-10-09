@@ -20,7 +20,9 @@ export const AboutMe = () => {
           Técnica da UFRGS em Porto Alegre - RS
         </Paragraph>
         <Buttons>
-          <button onClick={() => push('portfolio')}>Porfólio</button>
+          <button style={{ width: '120px' }} onClick={() => push('portfolio')}>
+            Porfólio
+          </button>
           <ExtButton to="/docs/cv.pdf" target="_blank">
             Currículo
           </ExtButton>

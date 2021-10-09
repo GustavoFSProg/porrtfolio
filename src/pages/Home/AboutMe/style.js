@@ -57,7 +57,7 @@ export const ExtButton = styled(Link)`
   border: 0px;
   padding: 1rem;
   width: 100%;
-  max-width: 150px;
+  max-width: 125px;
   font-size: 1.1rem;
   font-weight: 600;
   transition: 0.25s;
