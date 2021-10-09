@@ -6,6 +6,10 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+
+  @media screen and (max-width: 720px) {
+    /* width: 28%; */
+  }
 `
 
 export const Header = styled.div`

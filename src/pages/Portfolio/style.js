@@ -17,6 +17,11 @@ export const Card = styled.div`
   padding: 1rem 2rem 2rem 2rem;
   color: #fff;
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 720px) {
+    width: 100%;
+    margin-left: 20px;
+  } ;
 `
 
 export const Description = styled.p`
@@ -42,5 +47,9 @@ export const Image = styled.a`
   &:hover {
     filter: brightness(0.8);
     border-color: #df3143;
+  }
+
+  @media screen and (max-width: 720px) {
+    width: 90%;
   }
 `
