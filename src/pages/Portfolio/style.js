@@ -5,6 +5,7 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  width: 100%;
 `
 
 export const Card = styled.div`
