@@ -1,7 +1,8 @@
+import { Link as L } from 'react-router-dom'
 import styled from 'styled-components'
 import { headerHeightPercentage } from 'Constants'
 
-const StyledHeader = styled.div`
+export const StyledHeader = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +19,7 @@ const StyledHeader = styled.div`
   }
 `
 
-const HTitle = styled.h1`
+export const HTitle = styled.h1`
   font-size: 5rem;
   color: #fff;
   font-family: 'Roboto';
@@ -29,8 +30,20 @@ const HTitle = styled.h1`
   }
 `
 
-export const Header = ({ children }) => (
-  <StyledHeader>
-    <HTitle>{children}</HTitle>
-  </StyledHeader>
-)
+export const Link = styled(L)`
+  position: absolute;
+  left: 15%;
+  top: ${() => `${headerHeightPercentage}vh`};
+  margin-top: -5rem;
+  color: #fff;
+`
+
+export const GoBackIcon = styled.svg`
+  width: 5rem;
+  height: 5rem;
+  &:hover {
+    svg {
+      stroke: #df3143;
+    }
+  }
+`

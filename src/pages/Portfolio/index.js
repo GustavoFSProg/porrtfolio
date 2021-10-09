@@ -3,7 +3,6 @@ import { Header } from 'components/Header'
 import { Title } from 'components/Title'
 
 import { Content, Card, Description, Image } from './style'
-import { useHistory } from 'react-router'
 
 const clients = [
   {
@@ -28,7 +27,6 @@ const clients = [
 ]
 
 export const Portfolio = () => {
-  const { push } = useHistory()
   useEffect(() => {
     window.scrollTo({ top: 0 })
     document.body.scrollTop = 0
@@ -38,7 +36,6 @@ export const Portfolio = () => {
     <>
       <Header>Portfólio</Header>
       <Content>
-        <button onClick={() => push('/')}>Home</button>
         {clients.map((client) => (
           <Card key={client.title}>
             <Title color="#fff">{client.title}</Title>

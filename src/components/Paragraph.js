@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Paragraph = styled.p`
   font-family: 'Roboto';
-  color: ${({ color }) => (color ? 'gray' : 'none')};
+  color: ${({ color }) => (color ? '#fff' : 'none')};
   width: 450px;
   margin-bottom: 2rem;
 
