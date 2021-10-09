@@ -46,4 +46,8 @@ export const GoBackIcon = styled.svg`
       stroke: #df3143;
     }
   }
+
+  @media screen and (max-width: 720px) {
+    margin-top: -85px;
+  }
 `

@@ -9,7 +9,7 @@ export const GoBackLink = () => (
         viewBox="0 0 24 24"
         fill="none"
         stroke="#fff"
-        strokeWidth="3"
+        strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
         className="feather feather-chevron-left"
