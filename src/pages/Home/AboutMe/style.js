@@ -36,6 +36,7 @@ export const WhoIAm = styled.div`
     padding: 1rem;
     width: 100%;
     max-width: 100%;
+    margin-top: 30px;
   }
 `
 
