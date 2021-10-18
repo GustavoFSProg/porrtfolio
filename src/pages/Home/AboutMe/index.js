@@ -11,8 +11,8 @@ export const AboutMe = () => {
   const { push } = useHistory()
   return (
     <Section>
-      <Header>Gustavo F. Sohne</Header>
-      <Picture />
+      {/* <Header>Gustavo F. Sohne</Header>
+      <Picture /> */}
       <WhoIAm>
         <Title>Quem sou</Title>
         <Paragraph>
