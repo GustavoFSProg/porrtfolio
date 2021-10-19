@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-// import { AboutMe } from './AboutMe'
+import { AboutMe } from './AboutMe'
 import { Skills } from './Skills'
 import { Container } from './style'
 
