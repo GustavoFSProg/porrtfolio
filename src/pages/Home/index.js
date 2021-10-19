@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { AboutMe } from './AboutMe'
+// import { AboutMe } from './AboutMe'
 import { Skills } from './Skills'
 import { Container } from './style'
 
@@ -11,8 +11,7 @@ export const Home = () => {
   }, [])
   return (
     <Container>
-      <AboutMe />
-      <HrefFFrererer>AAA</HrefFFrererer>
+      {/* <AboutMe /> */}
       <Skills />
     </Container>
   )
