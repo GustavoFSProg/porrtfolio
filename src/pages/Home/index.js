@@ -11,7 +11,7 @@ export const Home = () => {
   }, [])
   return (
     <Container>
-      {/* <AboutMe /> */}
+      <AboutMe />
       <Skills />
     </Container>
   )
