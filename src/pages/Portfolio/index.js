@@ -24,6 +24,13 @@ const clients = [
     image: '/images/letmeask.png',
     link: 'https://letmeask-course.netlify.app/',
   },
+
+  {
+    title: 'NLW - Heat',
+    description: 'Site Desenvolvido a partir do curso NLW da Rocketseat',
+    image: '/images/nlw-heat.png',
+    link: 'https://nlw-hea.netlify.app/',
+  },
 ]
 
 export const Portfolio = () => {
