@@ -23,7 +23,7 @@ export const AboutMe = () => {
           <button style={{ width: '120px' }} onClick={() => push('portfolio')}>
             Porfólio
           </button>
-          <ExtButton to="docs/cv3.pdf" target="_blank">
+          <ExtButton to="docs/Curriculo.pdf" target="_blank">
             Currículo
           </ExtButton>
         </Buttons>
