@@ -9,7 +9,7 @@ export const Footer = () => (
         +55 (51) 98457-6589
         <br />
         <Link target="_blank" href="mailto:gustavosohne38@gmail.com" rel="noreferrer">
-          gustavo38@gmail.com
+          gustavo.prog40@gmail.com
         </Link>
       </Paragraph>
     </Container>
