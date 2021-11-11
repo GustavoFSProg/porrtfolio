@@ -6,7 +6,7 @@ export const Footer = () => (
     <Container>
       <Title>Contato</Title>
       <Paragraph color="#fff">
-        +55 (51) 98457-6589
+        +55 (51)
         <br />
         <Link target="_blank" href="mailto:gustavosohne38@gmail.com" rel="noreferrer">
           gustavo.prog40@gmail.com
