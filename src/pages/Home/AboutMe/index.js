@@ -19,14 +19,14 @@ export const AboutMe = () => {
           Sou desenvolvedor Node js e React js, formado no curso de Sistemas de Informação da Escola
           Técnica da UFRGS em Porto Alegre - RS
         </Paragraph>
-        <Buttons>
+        <ButtonsS>
           <button style={{ width: '120px' }} onClick={() => push('portfolio')}>
             Porfólio
           </button>
           <ExtButton to="docs/Curriculo.pdf" target="_blank">
             Currículo
           </ExtButton>
-        </Buttons>
+        </ButtonsS>
       </WhoIAm>
     </Section>
   )
