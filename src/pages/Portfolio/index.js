@@ -31,6 +31,12 @@ const clients = [
     image: '/images/nlw-heat.png',
     link: 'https://nlw-hea.netlify.app/',
   },
+  {
+    title: 'Netflix - Clone',
+    description: 'Site Desenvolvido em React js',
+    image: '/images/netflix.png',
+    link: 'https://netflix-clone-gustavo.netlify.app/',
+  },
 ]
 
 export const Portfolio = () => {
