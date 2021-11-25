@@ -33,7 +33,7 @@ const clients = [
   },
   {
     title: 'Netflix - Clone',
-    description: 'Site Desenvolvido em React js',
+    description: 'Site Desenvolvido a partir do curso em React js',
     image: '/images/netflix.png',
     link: 'https://netflix-clone-gustavo.netlify.app/',
   },
