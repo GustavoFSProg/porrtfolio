@@ -5,14 +5,14 @@ import { Section } from 'components/Section'
 import { Header } from 'components/Header'
 import { Title } from 'components/Title'
 import { Paragraph } from 'components/Paragraph'
-import {  WhoIAm, Buttons, ExtButton } from './style'
+import {  WhoIAm, Buttons, ExtButton, Picture } from './style'
 
 export const AboutMe = () => {
   const { push } = useHistory()
   return (
     <Section>
       <Header>Gustavo Fernando</Header>
-      {/* <Picture /> */}
+      <Picture />
       <WhoIAm>
         <Title>Quem sou</Title>
         <Paragraph>
